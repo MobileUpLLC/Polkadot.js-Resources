@@ -1,0 +1,372 @@
+[
+    {
+        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot",
+        "assets": [
+            {
+                "symbol": "DOT",
+                "precision": 10
+            }
+        ],
+        "api_endpoint": "polkadot.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 0
+    },
+    {
+        "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Kusama",
+        "assets": [
+            {
+                "symbol": "KSM",
+                "precision": 12
+            }
+        ],
+        "api_endpoint": "kusama.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2
+    },
+    {
+        "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+        "name": "Westend",
+        "assets": [
+            {
+                "symbol": "WND",
+                "precision": 12
+            }
+        ],
+        "api_endpoint": "westend.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://westend-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 42
+    },
+    {
+        "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Statemine",
+        "assets": [
+            {
+                "symbol": "KSM",
+                "precision": 12
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10
+            },
+            {
+                "symbol": "CHAOS",
+                "precision": 10
+            },
+            {
+                "symbol": "CHRWNA",
+                "precision": 10
+            },
+            {
+                "symbol": "SHIBATALES",
+                "precision": 0
+            },
+            {
+                "symbol": "BILLCOIN",
+                "precision": 8
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            }
+        ],
+        "api_endpoint": "statemine.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemine-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2
+    },
+    {
+        "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Karura",
+        "assets": [
+            {
+                "symbol": "KAR",
+                "precision": 12
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12
+            },
+            {
+                "symbol": "KSM",
+                "precision": 12
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10
+            },
+            {
+                "symbol": "BNC",
+                "precision": 12
+            },
+            {
+                "symbol": "LKSM",
+                "precision": 12
+            },
+            {
+                "symbol": "PHA",
+                "precision": 12
+            },
+            {
+                "symbol": "KINT",
+                "precision": 12
+            },
+            {
+                "symbol": "kBTC",
+                "precision": 8
+            },
+            {
+                "symbol": "TAI",
+                "precision": 12
+            },
+            {
+                "symbol": "vsKSM",
+                "precision": 12
+            },
+            {
+                "symbol": "taiKSM",
+                "precision": 12
+            },
+            {
+                "symbol": "QTZ",
+                "precision": 18
+            },
+            {
+                "symbol": "MOVR",
+                "precision": 18
+            },
+            {
+                "symbol": "HKO",
+                "precision": 12
+            },
+            {
+                "symbol": "CSM",
+                "precision": 12
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            },
+            {
+                "symbol": "KMA",
+                "precision": 12
+            },
+            {
+                "symbol": "TEER",
+                "precision": 12
+            },
+            {
+                "symbol": "KICO",
+                "precision": 14
+            },
+            {
+                "symbol": "NEER",
+                "precision": 18
+            },
+            {
+                "symbol": "BSX",
+                "precision": 12
+            },
+            {
+                "symbol": "AIR",
+                "precision": 18
+            },
+            {
+                "symbol": "GENS",
+                "precision": 9
+            },
+            {
+                "symbol": "EQD",
+                "precision": 9
+            },
+            {
+                "symbol": "CRAB",
+                "precision": 18
+            }
+        ],
+        "api_endpoint": "karura.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://karura-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 8
+    },
+    {
+        "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+        "name": "Edgeware",
+        "assets": [
+            {
+                "symbol": "EDG",
+                "precision": 18
+            }
+        ],
+        "api_endpoint": "edgeware.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://edgeware-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 7
+    },
+    {
+        "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Acala",
+        "assets": [
+            {
+                "symbol": "ACA",
+                "precision": 12
+            },
+            {
+                "symbol": "LDOT",
+                "precision": 10
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12
+            },
+            {
+                "symbol": "DOT",
+                "precision": 10
+            },
+            {
+                "symbol": "lcDOT",
+                "precision": 10
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18
+            },
+            {
+                "symbol": "PARA",
+                "precision": 12
+            },
+            {
+                "symbol": "TAP",
+                "precision": 12
+            },
+            {
+                "symbol": "tDOT",
+                "precision": 10
+            },
+            {
+                "symbol": "INTR",
+                "precision": 10
+            },
+            {
+                "symbol": "ASTR",
+                "precision": 18
+            },
+            {
+                "symbol": "EQ",
+                "precision": 9
+            },
+            {
+                "symbol": "iBTC",
+                "precision": 8
+            }
+        ],
+        "api_endpoint": "acala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://acala-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 10
+    },
+    {
+        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Statemint",
+        "assets": [
+            {
+                "symbol": "DOT",
+                "precision": 10
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            }
+        ],
+        "api_endpoint": "statemint.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemint-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 0
+    },
+    {
+        "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Robonomics",
+        "assets": [
+            {
+                "symbol": "XRT",
+                "precision": 9
+            }
+        ],
+        "api_endpoint": "robonomics.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama.rpc.robonomics.network/",
+                "name": "Airalab node"
+            }
+        ],
+        "addressPrefix": 32
+    },
+    {
+        "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Bifrost Polkadot",
+        "assets": [
+            {
+                "symbol": "BNC",
+                "precision": 12
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18
+            },
+            {
+                "symbol": "DOT",
+                "precision": 10
+            }
+        ],
+        "api_endpoint": "bifrost.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+                "name": "Liebi node"
+            }
+        ],
+        "addressPrefix": 6
+    }
+]
