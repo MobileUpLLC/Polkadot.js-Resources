@@ -8,7 +8,7 @@
                 "precision": 10
             }
         ],
-        "api_endpoint": "polkadot.api.subscan.io",
+        "api_endpoint": "https://polkadot.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://rpc.polkadot.io",
@@ -26,7 +26,7 @@
                 "precision": 12
             }
         ],
-        "api_endpoint": "kusama.api.subscan.io",
+        "api_endpoint": "https://kusama.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://kusama-rpc.polkadot.io",
@@ -44,7 +44,7 @@
                 "precision": 12
             }
         ],
-        "api_endpoint": "westend.api.subscan.io",
+        "api_endpoint": "https://westend.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://westend-rpc.polkadot.io",
@@ -87,7 +87,7 @@
                 "precision": 6
             }
         ],
-        "api_endpoint": "statemine.api.subscan.io",
+        "api_endpoint": "https://statemine.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://statemine-rpc.polkadot.io",
@@ -206,7 +206,7 @@
                 "precision": 18
             }
         ],
-        "api_endpoint": "karura.api.subscan.io",
+        "api_endpoint": "https://karura.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://karura-rpc.dwellir.com",
@@ -224,7 +224,7 @@
                 "precision": 18
             }
         ],
-        "api_endpoint": "edgeware.api.subscan.io",
+        "api_endpoint": "https://edgeware.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://edgeware-rpc.dwellir.com",
@@ -291,7 +291,7 @@
                 "precision": 8
             }
         ],
-        "api_endpoint": "acala.api.subscan.io",
+        "api_endpoint": "https://acala.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://acala-rpc.dwellir.com",
@@ -314,7 +314,7 @@
                 "precision": 6
             }
         ],
-        "api_endpoint": "statemint.api.subscan.io",
+        "api_endpoint": "https://statemint.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://statemint-rpc.polkadot.io",
@@ -333,7 +333,7 @@
                 "precision": 9
             }
         ],
-        "api_endpoint": "robonomics.api.subscan.io",
+        "api_endpoint": "https://robonomics.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://kusama.rpc.robonomics.network/",
@@ -360,7 +360,7 @@
                 "precision": 10
             }
         ],
-        "api_endpoint": "bifrost.api.subscan.io",
+        "api_endpoint": "https://bifrost.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
