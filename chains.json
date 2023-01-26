@@ -1,6 +1,6 @@
 [
     {
-        "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "id": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Polkadot",
         "assets": [
             {
@@ -8,7 +8,7 @@
                 "precision": 10
             }
         ],
-        "api_endpoint": "https://polkadot.api.subscan.io",
+        "subscanURL": "https://polkadot.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://rpc.polkadot.io",
@@ -18,7 +18,7 @@
         "addressPrefix": 0
     },
     {
-        "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "id": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Kusama",
         "assets": [
             {
@@ -26,7 +26,7 @@
                 "precision": 12
             }
         ],
-        "api_endpoint": "https://kusama.api.subscan.io",
+        "subscanURL": "https://kusama.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://kusama-rpc.polkadot.io",
@@ -36,7 +36,7 @@
         "addressPrefix": 2
     },
     {
-        "chainId": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+        "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
         "name": "Westend",
         "assets": [
             {
@@ -44,7 +44,7 @@
                 "precision": 12
             }
         ],
-        "api_endpoint": "https://westend.api.subscan.io",
+        "subscanURL": "https://westend.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://westend-rpc.polkadot.io",
@@ -54,7 +54,7 @@
         "addressPrefix": 42
     },
     {
-        "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Statemine",
         "assets": [
@@ -87,7 +87,7 @@
                 "precision": 6
             }
         ],
-        "api_endpoint": "https://statemine.api.subscan.io",
+        "subscanURL": "https://statemine.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://statemine-rpc.polkadot.io",
@@ -97,7 +97,7 @@
         "addressPrefix": 2
     },
     {
-        "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Karura",
         "assets": [
@@ -206,7 +206,7 @@
                 "precision": 18
             }
         ],
-        "api_endpoint": "https://karura.api.subscan.io",
+        "subscanURL": "https://karura.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://karura-rpc.dwellir.com",
@@ -216,7 +216,7 @@
         "addressPrefix": 8
     },
     {
-        "chainId": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+        "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
         "name": "Edgeware",
         "assets": [
             {
@@ -224,7 +224,7 @@
                 "precision": 18
             }
         ],
-        "api_endpoint": "https://edgeware.api.subscan.io",
+        "subscanURL": "https://edgeware.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://edgeware-rpc.dwellir.com",
@@ -234,7 +234,7 @@
         "addressPrefix": 7
     },
     {
-        "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Acala",
         "assets": [
@@ -291,7 +291,7 @@
                 "precision": 8
             }
         ],
-        "api_endpoint": "https://acala.api.subscan.io",
+        "subscanURL": "https://acala.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://acala-rpc.dwellir.com",
@@ -301,7 +301,7 @@
         "addressPrefix": 10
     },
     {
-        "chainId": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "id": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Statemint",
         "assets": [
@@ -314,7 +314,7 @@
                 "precision": 6
             }
         ],
-        "api_endpoint": "https://statemint.api.subscan.io",
+        "subscanURL": "https://statemint.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://statemint-rpc.polkadot.io",
@@ -324,7 +324,7 @@
         "addressPrefix": 0
     },
     {
-        "chainId": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+        "id": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Robonomics",
         "assets": [
@@ -333,7 +333,7 @@
                 "precision": 9
             }
         ],
-        "api_endpoint": "https://robonomics.api.subscan.io",
+        "subscanURL": "https://robonomics.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://kusama.rpc.robonomics.network/",
@@ -343,7 +343,7 @@
         "addressPrefix": 32
     },
     {
-        "chainId": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "id": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
         "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "name": "Bifrost Polkadot",
         "assets": [
@@ -360,7 +360,7 @@
                 "precision": 10
             }
         ],
-        "api_endpoint": "https://bifrost.api.subscan.io",
+        "subscanURL": "https://bifrost.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
