@@ -4,12 +4,12 @@
         "name": "Polkadot",
         "assets": [
             {
-                "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/blob/main/Icons/Assets/DOT.svg",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
                 "symbol": "DOT",
                 "precision": 10
             }
         ],
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/blob/main/Icons/Chains/Polkadot.svg",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Polkadot.svg",
         "subscanUrl": "https://polkadot.api.subscan.io",
         "nodes": [
             {
@@ -24,12 +24,12 @@
         "name": "Kusama",
         "assets": [
             {
-                "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/blob/main/Icons/Assets/KSM.svg",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
                 "precision": 12
             }
         ],
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/blob/main/Icons/Chains/Kusama.svg",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Kusama.svg",
         "subscanUrl": "https://kusama.api.subscan.io",
         "nodes": [
             {
