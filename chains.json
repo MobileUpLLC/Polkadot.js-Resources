@@ -44,8 +44,10 @@
     {
         "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
         "name": "Westend",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Westend.svg",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/WND.svg",
                 "symbol": "WND",
                 "precision": 12
             }
@@ -61,11 +63,34 @@
         "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/westend.json"
     },
     {
+        "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Khala",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Khala.svg",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "symbol": "PHA",
+                "precision": 12
+            }
+        ],
+        "subscanUrl": "https://khala.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://khala-api.phala.network/ws",
+                "name": "Phala node"
+            }
+        ],
+        "addressPrefix": 30,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json"
+    },
+    {
         "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Statemine",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
                 "precision": 12
             },
@@ -118,6 +143,7 @@
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
                 "precision": 12
             },
@@ -261,6 +287,7 @@
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
                 "symbol": "DOT",
                 "precision": 10
             },
@@ -317,6 +344,7 @@
         "name": "Statemint",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
                 "symbol": "DOT",
                 "precision": 10
             },
@@ -369,6 +397,7 @@
                 "precision": 18
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
                 "symbol": "DOT",
                 "precision": 10
             }
