@@ -17,7 +17,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 0
+        "addressPrefix": 0,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json"
     },
     {
         "id": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -37,7 +38,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 2
+        "addressPrefix": 2,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json"
     },
     {
         "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
@@ -55,7 +57,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 42
+        "addressPrefix": 42,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/westend.json"
     },
     {
         "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
@@ -98,7 +101,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 2
+        "addressPrefix": 2,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json"
     },
     {
         "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -217,7 +221,8 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 8
+        "addressPrefix": 8,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json"
     },
     {
         "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
@@ -235,7 +240,8 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 7
+        "addressPrefix": 7,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json"
     },
     {
         "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -302,7 +308,8 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 10
+        "addressPrefix": 10,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/acala.json"
     },
     {
         "id": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
@@ -325,7 +332,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 0
+        "addressPrefix": 0,
+        "typesUrlIOS": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/statemint.json"
     },
     {
         "id": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
@@ -344,7 +352,8 @@
                 "name": "Airalab node"
             }
         ],
-        "addressPrefix": 32
+        "addressPrefix": 32,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/robonomics.json"
     },
     {
         "id": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
@@ -371,6 +380,7 @@
                 "name": "Liebi node"
             }
         ],
-        "addressPrefix": 6
+        "addressPrefix": 6,
+        "typesUrlIOS": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/bifrost_polkadot.json"
     }
 ]
