@@ -135,6 +135,7 @@
         "name": "Karura",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
                 "precision": 12
             },
@@ -160,6 +161,7 @@
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
                 "symbol": "PHA",
                 "precision": 12
             },
@@ -240,6 +242,7 @@
                 "precision": 18
             }
         ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Karura.svg",
         "subscanUrl": "https://karura.api.subscan.io",
         "nodes": [
             {
