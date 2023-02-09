@@ -63,7 +63,7 @@
         "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/westend.json"
     },
     {
-        "chainId": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Khala",
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Khala.svg",
@@ -74,7 +74,7 @@
                 "precision": 12
             }
         ],
-        "subscanUrl": "https://khala.subscan.io",
+        "subscanUrl": "https://khala.api.subscan.io",
         "nodes": [
             {
                 "url": "wss://khala-api.phala.network/ws",
