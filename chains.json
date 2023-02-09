@@ -85,51 +85,6 @@
         "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json"
     },
     {
-        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Statemine",
-        "assets": [
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
-                "symbol": "KSM",
-                "precision": 12
-            },
-            {
-                "symbol": "RMRK",
-                "precision": 10
-            },
-            {
-                "symbol": "CHAOS",
-                "precision": 10
-            },
-            {
-                "symbol": "CHRWNA",
-                "precision": 10
-            },
-            {
-                "symbol": "SHIBATALES",
-                "precision": 0
-            },
-            {
-                "symbol": "BILLCOIN",
-                "precision": 8
-            },
-            {
-                "symbol": "USDT",
-                "precision": 6
-            }
-        ],
-        "subscanUrl": "https://statemine.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://statemine-rpc.polkadot.io",
-                "name": "Parity node"
-            }
-        ],
-        "addressPrefix": 2,
-        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json"
-    },
-    {
         "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Karura",
@@ -137,6 +92,11 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
+                "precision": 12
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "symbol": "PHA",
                 "precision": 12
             },
             {
@@ -158,11 +118,6 @@
             },
             {
                 "symbol": "LKSM",
-                "precision": 12
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
-                "symbol": "PHA",
                 "precision": 12
             },
             {
@@ -252,6 +207,51 @@
         ],
         "addressPrefix": 8,
         "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json"
+    },
+    {
+        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Statemine",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10
+            },
+            {
+                "symbol": "CHAOS",
+                "precision": 10
+            },
+            {
+                "symbol": "CHRWNA",
+                "precision": 10
+            },
+            {
+                "symbol": "SHIBATALES",
+                "precision": 0
+            },
+            {
+                "symbol": "BILLCOIN",
+                "precision": 8
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            }
+        ],
+        "subscanUrl": "https://statemine.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemine-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2,
+        "typesUrlIOS": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json"
     },
     {
         "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
