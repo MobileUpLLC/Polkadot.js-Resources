@@ -1,0 +1,421 @@
+[
+    {
+        "id": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot",
+        "assets": [
+            {
+                "symbol": "DOT",
+                "precision": 10,
+                "type": "native",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg"
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Polkadot.svg",
+        "subscanUrl": "https://polkadot.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 0,
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json"
+    },
+    {
+        "id": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Kusama",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12,
+                "type": "native"
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Kusama.svg",
+        "subscanUrl": "https://kusama.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2,
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json"
+    },
+    {
+        "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+        "name": "Westend",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Westend.svg",
+        "assets": [
+            {
+                "symbol": "WND",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/WND.svg",
+                "precision": 12,
+                "type": "native"
+            }
+        ],
+        "subscanUrl": "https://westend.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://westend-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 42,
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/westend.json"
+    },
+    {
+        "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Khala",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Khala.svg",
+        "assets": [
+            {
+                "symbol": "PHA",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "precision": 12,
+                "type": "native"
+            },
+            {
+                "symbol": "KSM",
+                "precision": 12,
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "0"
+                    }
+            }
+        ],
+        "subscanUrl": "https://khala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://khala-api.phala.network/ws",
+                "name": "Phala node"
+            }
+        ],
+        "addressPrefix": 30,
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json"
+    },
+    {
+        "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Karura",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
+                "symbol": "KAR",
+                "precision": 12,
+                "type": "native"
+            },
+            {
+                "symbol": "PHA",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "precision": 12,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x00aa",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "40000000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0081",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "10000000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0082",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "100000000",
+                        "transfersEnabled": true
+                    }
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Karura.svg",
+        "subscanUrl": "https://karura.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://karura-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 8,
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json"
+    },
+    {
+        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Statemine",
+        "addressPrefix": 2,
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12,
+                "type": "native"
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10,
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "8"
+                    }
+            },
+            {
+                "symbol": "CHAOS",
+                "precision": 10,
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "69420"
+                    }
+            },
+            {
+                "symbol": "CHRWNA",
+                "precision": 10,
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "567"
+                    }
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6,
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "1984"
+                    }
+            }
+        ],
+        "subscanUrl": "https://statemine.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemine-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json"
+    },
+    {
+        "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+        "name": "Edgeware",
+        "addressPrefix": 7,
+        "assets": [
+            {
+                "symbol": "EDG",
+                "precision": 18,
+                "type": "native"
+            }
+        ],
+        "subscanUrl": "https://edgeware.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://edgeware-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json"
+    },
+    {
+        "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Acala",
+        "addressPrefix": 10,
+        "assets": [
+            {
+                "symbol": "ACA",
+                "precision": 12,
+                "type": "native"
+            },
+            {
+                "symbol": "LDOT",
+                "precision": 10,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0003",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "500000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0001",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "100000000000",
+                        "transfersEnabled": true
+                    }
+                
+            },
+            {
+                "symbol": "DOT",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "precision": 10,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0002",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "100000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "symbol": "lcDOT",
+                "precision": 10,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x040d000000",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "100000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x050000",
+                        "currencyIdType": "acala_primitives.currency.CurrencyId",
+                        "existentialDeposit": "100000000000000000",
+                        "transfersEnabled": true
+                    }
+            }
+        ],
+        "subscanUrl": "https://acala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://acala-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/acala.json"
+    },
+    {
+        "id": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Statemint",
+        "addressPrefix": 0,
+        "assets": [
+            {
+                "symbol": "DOT",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "precision": 10,
+                "type": "native"
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6,
+                "type": "statemine",
+                "typeExtras":
+                    {
+                        "assetId": "1984"
+                    }
+            }
+        ],
+        "subscanUrl": "https://statemint.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemint-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "typesUrl": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/statemint.json"
+    },
+    {
+        "id": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Robonomics",
+        "addressPrefix": 32,
+        "assets": [
+            {
+                "symbol": "XRT",
+                "precision": 9,
+                "type": "native"
+            }
+        ],
+        "subscanUrl": "https://robonomics.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama.rpc.robonomics.network/",
+                "name": "Airalab node"
+            }
+        ],
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/robonomics.json"
+    },
+    {
+        "id": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Bifrost Polkadot",
+        "addressPrefix": 6,
+        "assets": [
+            {
+                "symbol": "BNC",
+                "precision": 12,
+                "type": "native"
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0801",
+                        "currencyIdType": "node_primitives.currency.CurrencyId",
+                        "existentialDeposit": "1000000000000",
+                        "transfersEnabled": true
+                    }
+            },
+            {
+                "symbol": "DOT",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "precision": 10,
+                "type": "orml",
+                "typeExtras":
+                    {
+                        "currencyIdScale": "0x0800",
+                        "currencyIdType": "node_primitives.currency.CurrencyId",
+                        "existentialDeposit": "1000000",
+                        "transfersEnabled": true
+                    }
+            }
+        ],
+        "subscanUrl": "https://bifrost.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+                "name": "Liebi node"
+            }
+        ],
+        "typesUrl": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/bifrost_polkadot.json"
+    }
+]
