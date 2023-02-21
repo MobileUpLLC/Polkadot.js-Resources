@@ -5,7 +5,7 @@
         "assets": [
             {
                 "symbol": "DOT",
-                "precision": 10,
+                "decimals": 10,
                 "type": "native",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg"
             }
@@ -28,7 +28,7 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             }
         ],
@@ -51,7 +51,7 @@
             {
                 "symbol": "WND",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/WND.svg",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             }
         ],
@@ -74,12 +74,12 @@
             {
                 "symbol": "PHA",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             },
             {
                 "symbol": "KSM",
-                "precision": 12,
+                "decimals": 12,
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "type": "statemine",
                 "typeExtras":
@@ -106,13 +106,13 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             },
             {
                 "symbol": "PHA",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
-                "precision": 12,
+                "decimals": 12,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -124,7 +124,7 @@
             },
             {
                 "symbol": "aUSD",
-                "precision": 12,
+                "decimals": 12,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -137,7 +137,7 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12,
+                "decimals": 12,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -168,12 +168,12 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             },
             {
                 "symbol": "RMRK",
-                "precision": 10,
+                "decimals": 10,
                 "type": "statemine",
                 "typeExtras":
                     {
@@ -182,7 +182,7 @@
             },
             {
                 "symbol": "CHAOS",
-                "precision": 10,
+                "decimals": 10,
                 "type": "statemine",
                 "typeExtras":
                     {
@@ -191,7 +191,7 @@
             },
             {
                 "symbol": "CHRWNA",
-                "precision": 10,
+                "decimals": 10,
                 "type": "statemine",
                 "typeExtras":
                     {
@@ -200,7 +200,7 @@
             },
             {
                 "symbol": "USDT",
-                "precision": 6,
+                "decimals": 6,
                 "type": "statemine",
                 "typeExtras":
                     {
@@ -224,7 +224,7 @@
         "assets": [
             {
                 "symbol": "EDG",
-                "precision": 18,
+                "decimals": 18,
                 "type": "native"
             }
         ],
@@ -245,12 +245,12 @@
         "assets": [
             {
                 "symbol": "ACA",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             },
             {
                 "symbol": "LDOT",
-                "precision": 10,
+                "decimals": 10,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -262,7 +262,7 @@
             },
             {
                 "symbol": "aUSD",
-                "precision": 12,
+                "decimals": 12,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -276,7 +276,7 @@
             {
                 "symbol": "DOT",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
-                "precision": 10,
+                "decimals": 10,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -288,7 +288,7 @@
             },
             {
                 "symbol": "lcDOT",
-                "precision": 10,
+                "decimals": 10,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -300,7 +300,7 @@
             },
             {
                 "symbol": "GLMR",
-                "precision": 18,
+                "decimals": 18,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -329,12 +329,12 @@
             {
                 "symbol": "DOT",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
-                "precision": 10,
+                "decimals": 10,
                 "type": "native"
             },
             {
                 "symbol": "USDT",
-                "precision": 6,
+                "decimals": 6,
                 "type": "statemine",
                 "typeExtras":
                     {
@@ -359,7 +359,7 @@
         "assets": [
             {
                 "symbol": "XRT",
-                "precision": 9,
+                "decimals": 9,
                 "type": "native"
             }
         ],
@@ -380,12 +380,12 @@
         "assets": [
             {
                 "symbol": "BNC",
-                "precision": 12,
+                "decimals": 12,
                 "type": "native"
             },
             {
                 "symbol": "GLMR",
-                "precision": 18,
+                "decimals": 18,
                 "type": "orml",
                 "typeExtras":
                     {
@@ -398,7 +398,7 @@
             {
                 "symbol": "DOT",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
-                "precision": 10,
+                "decimals": 10,
                 "type": "orml",
                 "typeExtras":
                     {
