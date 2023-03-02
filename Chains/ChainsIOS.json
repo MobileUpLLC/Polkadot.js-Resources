@@ -160,6 +160,78 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json"
     },
     {
+        "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Acala",
+        "assets": [
+            {
+                "symbol": "ACA",
+                "decimals": 12,
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/ACA.svg",
+                "type": "native"
+            },
+            {
+                "symbol": "LDOT",
+                "decimals": 10,
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x0003",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "500000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+               "symbol": "aUSD",
+               "decimals": 12,
+               "type": "orml",
+               "typeExtras":
+                   {
+                       "currencyIdScale": "0x0001",
+                       "currencyIdType": "acala_primitives.currency.CurrencyId",
+                       "existentialDeposit": "100000000000",
+                       "transfersEnabled": true
+                   }
+
+           },
+           {
+               "symbol": "DOT",
+               "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+               "decimals": 10,
+               "type": "orml",
+               "typeExtras":
+                   {
+                       "currencyIdScale": "0x0002",
+                       "currencyIdType": "acala_primitives.currency.CurrencyId",
+                       "existentialDeposit": "100000000",
+                       "transfersEnabled": true
+                   }
+           },
+           {
+              "symbol": "lcDOT",
+              "decimals": 10,
+              "type": "orml",
+              "typeExtras":
+              {
+                  "currencyIdScale": "0x040d000000",
+                  "currencyIdType": "acala_primitives.currency.CurrencyId",
+                  "existentialDeposit": "100000000",
+                  "transfersEnabled": true
+              }
+           }
+        ],
+        "subscanUrl": "https://acala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://acala-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Acala.svg",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+        "addressPrefix": 10
+    },
+    {
         "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Statemine",
@@ -236,89 +308,6 @@
             }
         ],
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/edgeware.json"
-    },
-    {
-        "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
-        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-        "name": "Acala",
-        "addressPrefix": 10,
-        "assets": [
-            {
-                "symbol": "ACA",
-                "decimals": 12,
-                "type": "native"
-            },
-            {
-                "symbol": "LDOT",
-                "decimals": 10,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x0003",
-                        "currencyIdType": "acala_primitives.currency.CurrencyId",
-                        "existentialDeposit": "500000000",
-                        "transfersEnabled": true
-                    }
-            },
-            {
-                "symbol": "aUSD",
-                "decimals": 12,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x0001",
-                        "currencyIdType": "acala_primitives.currency.CurrencyId",
-                        "existentialDeposit": "100000000000",
-                        "transfersEnabled": true
-                    }
-                
-            },
-            {
-                "symbol": "DOT",
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
-                "decimals": 10,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x0002",
-                        "currencyIdType": "acala_primitives.currency.CurrencyId",
-                        "existentialDeposit": "100000000",
-                        "transfersEnabled": true
-                    }
-            },
-            {
-                "symbol": "lcDOT",
-                "decimals": 10,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x040d000000",
-                        "currencyIdType": "acala_primitives.currency.CurrencyId",
-                        "existentialDeposit": "100000000",
-                        "transfersEnabled": true
-                    }
-            },
-            {
-                "symbol": "GLMR",
-                "decimals": 18,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x050000",
-                        "currencyIdType": "acala_primitives.currency.CurrencyId",
-                        "existentialDeposit": "100000000000000000",
-                        "transfersEnabled": true
-                    }
-            }
-        ],
-        "subscanUrl": "https://acala.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://acala-rpc.dwellir.com",
-                "name": "Dwellir node"
-            }
-        ],
-        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/acala.json"
     },
     {
         "id": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
