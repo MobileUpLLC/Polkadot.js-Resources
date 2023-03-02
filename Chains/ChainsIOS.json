@@ -227,67 +227,9 @@
                 "name": "Dwellir node"
             }
         ],
-        "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Acala.svg",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Acala.svg",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "addressPrefix": 10
-    },
-    {
-        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Statemine",
-        "addressPrefix": 2,
-        "assets": [
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
-                "symbol": "KSM",
-                "decimals": 12,
-                "type": "native"
-            },
-            {
-                "symbol": "RMRK",
-                "decimals": 10,
-                "type": "statemine",
-                "typeExtras":
-                    {
-                        "assetId": "8"
-                    }
-            },
-            {
-                "symbol": "CHAOS",
-                "decimals": 10,
-                "type": "statemine",
-                "typeExtras":
-                    {
-                        "assetId": "69420"
-                    }
-            },
-            {
-                "symbol": "CHRWNA",
-                "decimals": 10,
-                "type": "statemine",
-                "typeExtras":
-                    {
-                        "assetId": "567"
-                    }
-            },
-            {
-                "symbol": "USDT",
-                "decimals": 6,
-                "type": "statemine",
-                "typeExtras":
-                    {
-                        "assetId": "1984"
-                    }
-            }
-        ],
-        "subscanUrl": "https://statemine.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://statemine-rpc.polkadot.io",
-                "name": "Parity node"
-            }
-        ],
-        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json"
     },
     {
         "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
@@ -339,72 +281,5 @@
             }
         ],
         "typesUrl": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/statemint.json"
-    },
-    {
-        "id": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
-        "name": "Robonomics",
-        "addressPrefix": 32,
-        "assets": [
-            {
-                "symbol": "XRT",
-                "decimals": 9,
-                "type": "native"
-            }
-        ],
-        "subscanUrl": "https://robonomics.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://kusama.rpc.robonomics.network/",
-                "name": "Airalab node"
-            }
-        ],
-        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/robonomics.json"
-    },
-    {
-        "id": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
-        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
-        "name": "Bifrost Polkadot",
-        "addressPrefix": 6,
-        "assets": [
-            {
-                "symbol": "BNC",
-                "decimals": 12,
-                "type": "native"
-            },
-            {
-                "symbol": "GLMR",
-                "decimals": 18,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x0801",
-                        "currencyIdType": "node_primitives.currency.CurrencyId",
-                        "existentialDeposit": "1000000000000",
-                        "transfersEnabled": true
-                    }
-            },
-            {
-                "symbol": "DOT",
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
-                "decimals": 10,
-                "type": "orml",
-                "typeExtras":
-                    {
-                        "currencyIdScale": "0x0800",
-                        "currencyIdType": "node_primitives.currency.CurrencyId",
-                        "existentialDeposit": "1000000",
-                        "transfersEnabled": true
-                    }
-            }
-        ],
-        "subscanUrl": "https://bifrost.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
-                "name": "Liebi node"
-            }
-        ],
-        "typesUrl": "https://github.com/nova-wallet/nova-utils/blob/master/chains/v2/types/bifrost_polkadot.json"
     }
 ]
