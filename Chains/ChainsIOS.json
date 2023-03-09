@@ -171,6 +171,17 @@
                 "type": "native"
             },
             {
+                "symbol": "INTR",
+                "decimals": 10,
+                "type": "orml",
+                "typeExtras": {
+                    "currencyIdScale": "0x050400",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "1000000000",
+                    "transfersEnabled": true
+                }
+            },              
+            {
                 "symbol": "LDOT",
                 "decimals": 10,
                 "type": "orml",
