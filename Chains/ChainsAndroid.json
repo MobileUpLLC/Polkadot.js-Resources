@@ -1,0 +1,439 @@
+[
+    {
+        "id": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Polkadot",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "symbol": "DOT",
+                "precision": 10
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Polkadot.svg",
+        "subscanUrl": "https://polkadot.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 0
+    },
+    {
+        "id": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Kusama",
+        "assets": [
+            {
+                "symbol": "KSM",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "precision": 12
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Kusama.svg",
+        "subscanUrl": "https://kusama.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2
+    },
+    {
+        "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
+        "name": "Westend",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Westend.svg",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/WND.svg",
+                "symbol": "WND",
+                "precision": 12
+            }
+        ],
+        "subscanUrl": "https://westend.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://westend-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 42
+    },
+    {
+        "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Khala",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Khala.svg",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "symbol": "PHA",
+                "precision": 12
+            }
+        ],
+        "subscanUrl": "https://khala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://khala-api.phala.network/ws",
+                "name": "Phala node"
+            }
+        ],
+        "addressPrefix": 30
+    },
+    {
+        "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Karura",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
+                "symbol": "KAR",
+                "precision": 12
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PHA.svg",
+                "symbol": "PHA",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "BNC",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "LKSM",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "KINT",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "kBTC",
+                "precision": 8,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "TAI",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "vsKSM",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "taiKSM",
+                "precision": 12,
+                "type": "stableAssetPoolToken"
+            },
+            {
+                "symbol": "QTZ",
+                "precision": 18,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "MOVR",
+                "precision": 18,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "HKO",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "CSM",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "KMA",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "TEER",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "KICO",
+                "precision": 14,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "NEER",
+                "precision": 18,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "BSX",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "AIR",
+                "precision": 18,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "GENS",
+                "precision": 9,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "EQD",
+                "precision": 9,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "CRAB",
+                "precision": 18,
+                "type": "foreignAsset"
+            }
+        ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Karura.svg",
+        "subscanUrl": "https://karura.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://karura-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 8
+    },
+    {
+        "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Statemine",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "symbol": "KSM",
+                "precision": 12
+            },
+            {
+                "symbol": "RMRK",
+                "precision": 10
+            },
+            {
+                "symbol": "CHAOS",
+                "precision": 10
+            },
+            {
+                "symbol": "CHRWNA",
+                "precision": 10
+            },
+            {
+                "symbol": "SHIBATALES",
+                "precision": 0
+            },
+            {
+                "symbol": "BILLCOIN",
+                "precision": 8
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            }
+        ],
+        "subscanUrl": "https://statemine.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemine-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 2
+    },
+    {
+        "id": "742a2ca70c2fda6cee4f8df98d64c4c670a052d9568058982dad9d5a7a135c5b",
+        "name": "Edgeware",
+        "assets": [
+            {
+                "symbol": "EDG",
+                "precision": 18
+            }
+        ],
+        "subscanUrl": "https://edgeware.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://edgeware-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 7
+    },
+    {
+        "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Acala",
+        "assets": [
+            {
+                "symbol": "ACA",
+                "precision": 12
+            },
+            {
+                "symbol": "LDOT",
+                "precision": 10,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "aUSD",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "symbol": "DOT",
+                "precision": 10,
+                "type": "ormlAsset"
+            },
+            {
+                "symbol": "lcDOT",
+                "precision": 10,
+                "type": "liquidCrowdloan"
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "PARA",
+                "precision": 12,
+                "type": "foreignAsset"
+            },
+            {
+                "symbol": "TAP",
+                "precision": 12
+            },
+            {
+                "symbol": "tDOT",
+                "precision": 10,
+                "type": "stableAssetPoolToken"
+            },
+            {
+                "symbol": "INTR",
+                "precision": 10
+            },
+            {
+                "symbol": "ASTR",
+                "precision": 18
+            },
+            {
+                "symbol": "EQ",
+                "precision": 9
+            },
+            {
+                "symbol": "iBTC",
+                "precision": 8
+            }
+        ],
+        "subscanUrl": "https://acala.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://acala-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 10
+    },
+    {
+        "id": "68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Statemint",
+        "assets": [
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "symbol": "DOT",
+                "precision": 10
+            },
+            {
+                "symbol": "USDT",
+                "precision": 6
+            }
+        ],
+        "subscanUrl": "https://statemint.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://statemint-rpc.polkadot.io",
+                "name": "Parity node"
+            }
+        ],
+        "addressPrefix": 0
+    },
+    {
+        "id": "631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Robonomics",
+        "assets": [
+            {
+                "symbol": "XRT",
+                "precision": 9
+            }
+        ],
+        "subscanUrl": "https://robonomics.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://kusama.rpc.robonomics.network/",
+                "name": "Airalab node"
+            }
+        ],
+        "addressPrefix": 32
+    },
+    {
+        "id": "262e1b2ad728475fd6fe88e62d34c200abe6fd693931ddad144059b1eb884e5b",
+        "parentId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "name": "Bifrost Polkadot",
+        "assets": [
+            {
+                "symbol": "BNC",
+                "precision": 12
+            },
+            {
+                "symbol": "GLMR",
+                "precision": 18
+            },
+            {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/DOT.svg",
+                "symbol": "DOT",
+                "precision": 10
+            }
+        ],
+        "subscanUrl": "https://bifrost.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://hk.p.bifrost-rpc.liebi.com/ws",
+                "name": "Liebi node"
+            }
+        ],
+        "addressPrefix": 6
+    }
+]
