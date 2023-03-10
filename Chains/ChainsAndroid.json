@@ -110,7 +110,8 @@
             {
                 "symbol": "RMRK",
                 "precision": 10,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "0"
             },
             {
                 "symbol": "BNC",
@@ -145,77 +146,92 @@
             {
                 "symbol": "taiKSM",
                 "precision": 12,
-                "type": "stableAssetPoolToken"
+                "type": "stableAssetPoolToken",
+                "currencyId": "0"
             },
             {
                 "symbol": "QTZ",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "2"
             },
             {
                 "symbol": "MOVR",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "3"
             },
             {
                 "symbol": "HKO",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "4"
             },
             {
                 "symbol": "CSM",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "5"
             },
             {
                 "symbol": "USDT",
                 "precision": 6,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "7"
             },
             {
                 "symbol": "KMA",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "10"
             },
             {
                 "symbol": "TEER",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "8"
             },
             {
                 "symbol": "KICO",
                 "precision": 14,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "6"
             },
             {
                 "symbol": "NEER",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "9"
             },
             {
                 "symbol": "BSX",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "11"
             },
             {
                 "symbol": "AIR",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "12"
             },
             {
                 "symbol": "GENS",
                 "precision": 9,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "14"
             },
             {
                 "symbol": "EQD",
                 "precision": 9,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "15"
             },
             {
                 "symbol": "CRAB",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "13"
             }
         ],
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Karura.svg",
@@ -318,17 +334,20 @@
             {
                 "symbol": "lcDOT",
                 "precision": 10,
-                "type": "liquidCrowdloan"
+                "type": "liquidCrowdloan",
+                "currencyId": "13"
             },
             {
                 "symbol": "GLMR",
                 "precision": 18,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "0"
             },
             {
                 "symbol": "PARA",
                 "precision": 12,
-                "type": "foreignAsset"
+                "type": "foreignAsset",
+                "currencyId": "1"
             },
             {
                 "symbol": "TAP",
@@ -337,7 +356,8 @@
             {
                 "symbol": "tDOT",
                 "precision": 10,
-                "type": "stableAssetPoolToken"
+                "type": "stableAssetPoolToken",
+                "currencyId": "0"
             },
             {
                 "symbol": "INTR",
