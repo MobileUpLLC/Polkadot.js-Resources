@@ -66,6 +66,92 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/westend.json"
     },
     {
+        "id": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "name": "Basilisk",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Basilisk.svg",
+        "assets": [
+            {
+                "symbol": "BSX",
+                "decimals": 12,
+                "type": "native",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg"
+            },
+            {
+                "symbol": "KSM",
+                "decimals": 12,
+                "type": "orml",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x01000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "100000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "aUSD",
+                "decimals": 12,
+                "type": "orml",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x02000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "TNKR",
+                "decimals": 12,
+                "type": "orml",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/TNKR.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x06000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "USDT",
+                "decimals": 6,
+                "type": "orml",
+                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x0e000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "XRT",
+                "decimals": 9,
+                "type": "orml",
+                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg",
+                "typeExtras": {
+                    "currencyIdScale": "0x10000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1683502",
+                    "transfersEnabled": true
+                }
+            }
+        ],
+        "nodes": [
+            {
+                "url": "wss://rpc.basilisk.cloud",
+                "name": "Basilisk node"
+            },
+            {
+                "url": "wss://basilisk-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
+        "subscanUrl": "https://basilisk.api.subscan.io",
+        "addressPrefix": 10041,
+    },
+    {
         "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Khala",
@@ -125,6 +211,7 @@
             {
                 "symbol": "aUSD",
                 "decimals": 12,
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
                 "type": "orml",
                 "typeExtras":
                     {
@@ -195,6 +282,7 @@
             {
                "symbol": "aUSD",
                "decimals": 12,
+               "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
                "type": "orml",
                "typeExtras":
                    {
@@ -257,6 +345,7 @@
             {
                 "symbol": "USDT",
                 "decimals": 6,
+                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "type": "statemine",
                 "typeExtras":
                     {
