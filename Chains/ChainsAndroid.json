@@ -479,12 +479,8 @@
         "subscanUrl": "https://basilisk.api.subscan.io",
         "nodes": [
             {
-                "url": "wss://basilisk.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
-                "name": "OnFinality node"
-            },
-            {
-                "url": "wss://rpc-01.basilisk.hydradx.io",
-                "name": "HydraDX node"
+                "url": "wss://rpc.basilisk.cloud",
+                "name": "Basilisk node"
             },
             {
                 "url": "wss://basilisk-rpc.dwellir.com",
