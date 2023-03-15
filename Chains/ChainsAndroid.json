@@ -97,6 +97,7 @@
                 "type": "ormlAsset"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
                 "symbol": "aUSD",
                 "precision": 12,
                 "type": "ormlAsset"
@@ -174,6 +175,7 @@
                 "currencyId": "5"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
                 "precision": 6,
                 "type": "foreignAsset",
@@ -204,6 +206,7 @@
                 "currencyId": "9"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg",
                 "symbol": "BSX",
                 "precision": 12,
                 "type": "foreignAsset",
@@ -275,6 +278,7 @@
                 "precision": 8
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
                 "precision": 6
             }
@@ -321,6 +325,7 @@
                 "type": "ormlAsset"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
                 "symbol": "aUSD",
                 "precision": 12,
                 "type": "ormlAsset"
@@ -376,6 +381,7 @@
                 "precision": 8
             }
         ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Acala.svg",
         "subscanUrl": "https://acala.api.subscan.io",
         "nodes": [
             {
@@ -396,6 +402,7 @@
                 "precision": 10
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
                 "precision": 6
             }
@@ -415,6 +422,7 @@
         "name": "Robonomics",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg",
                 "symbol": "XRT",
                 "precision": 9
             }
@@ -455,5 +463,34 @@
             }
         ],
         "addressPrefix": 6
+    },
+    {
+        "id": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "name": "Basilisk",
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Basilisk.svg",
+        "assets": [
+            {
+                "symbol": "BSX",
+                "precision": 12,
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg"
+            }
+        ],
+        "subscanUrl": "https://basilisk.api.subscan.io",
+        "nodes": [
+            {
+                "url": "wss://basilisk.api.onfinality.io/ws?apikey=313214ec-15ef-4834-a896-1cf39911f94b",
+                "name": "OnFinality node"
+            },
+            {
+                "url": "wss://rpc-01.basilisk.hydradx.io",
+                "name": "HydraDX node"
+            },
+            {
+                "url": "wss://basilisk-rpc.dwellir.com",
+                "name": "Dwellir node"
+            }
+        ],
+        "addressPrefix": 10041
     }
 ]
