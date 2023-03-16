@@ -366,7 +366,9 @@
             },
             {
                 "symbol": "INTR",
-                "precision": 10
+                "precision": 10,
+                "type": "foreignAsset",
+                "currencyId": "4"
             },
             {
                 "symbol": "ASTR",
