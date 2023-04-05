@@ -1,451 +1,481 @@
 [
-    {
-        "id": "polkadot",
-        "prefix": 0,
-        "name": "Polkadot",
-        "symbol": "DOT",
-        "iconURL": "https://cdn.polkaholic.io/polkadot.png",
-        "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
-        "nodes": [
-            {
-                "url": "wss://rpc.polkadot.io",
-                "type": "Parity"
+   {
+      "id":"polkadot",
+      "prefix":0,
+      "name":"Polkadot",
+      "symbol":"DOT",
+      "iconURL":"https://cdn.polkaholic.io/polkadot.png",
+      "relayChain":"polkadot",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
+      "nodes":[
+         {
+            "url":"wss://rpc.polkadot.io",
+            "type":"Parity"
+         }
+      ],
+      "assets":[
+         {
+            "type":"Native",
+            "symbol":"DOT"
+         }
+      ],
+      "explorers":{
+         "subscan":"https://polkadot.subscan.io/account/",
+         "polkascan":"https://explorer.polkascan.io/polkadot/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"kusama",
+      "prefix":2,
+      "name":"Kusama",
+      "symbol":"KSM",
+      "iconURL":"https://cdn.polkaholic.io/kusama.svg",
+      "relayChain":"kusama",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
+      "nodes":[
+         {
+            "url":"wss://kusama-rpc.polkadot.io",
+            "type":"Parity"
+         }
+      ],
+      "assets":[
+         {
+            "type":"Native",
+            "symbol":"KSM"
+         }
+      ],
+      "explorers":{
+         "subscan":"https://kusama.subscan.io/account/",
+         "polkascan":"https://explorer.polkascan.io/kusama/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"basilisk",
+      "prefix":10041,
+      "name":"Basilisk",
+      "symbol":"BSX",
+      "iconURL":"https://cdn.polkaholic.io/basilisk.png",
+      "relayChain":"kusama",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
+      "nodes":[
+         {
+            "url":"wss://rpc.basilisk.cloud",
+            "type":"Basilisk"
+         }
+      ],
+      "assets":[
+         {
+            "type":"Native",
+            "symbol":"BSX"
+         },
+         {
+            "type":"ORML",
+            "symbol":"KSM",
+            "typeExtras":{
+               "currencyIdScale":"0x01000000",
+               "currencyIdType":"u32",
+               "existentialDeposit":"100000000"
             }
-        ],
-        "assets": [
-            {
-                "type": "Native",
-                "symbol": "DOT"
+         },
+         {
+            "type":"ORML",
+            "symbol":"KUSD",
+            "typeExtras":{
+               "currencyIdScale":"0x02000000",
+               "currencyIdType":"u32",
+               "existentialDeposit":"10000000000"
             }
-        ]
-    },
-    {
-        "id": "kusama",
-        "prefix": 2,
-        "name": "Kusama",
-        "symbol": "KSM",
-        "iconURL": "https://cdn.polkaholic.io/kusama.svg",
-        "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
-        "nodes": [
-            {
-                "url": "wss://kusama-rpc.polkadot.io",
-                "type": "Parity"
+         },
+         {
+            "type":"ORML",
+            "symbol":"TNKR",
+            "typeExtras":{
+               "currencyIdScale":"0x06000000",
+               "currencyIdType":"u32",
+               "existentialDeposit":"1000000000"
             }
-        ],
-        "assets": [
-            {
-                "type": "Native",
-                "symbol": "KSM"
+         },
+         {
+            "type":"ORML",
+            "symbol":"USDT",
+            "typeExtras":{
+               "currencyIdScale":"0x0e000000",
+               "currencyIdType":"u32",
+               "existentialDeposit":"10000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "basilisk",
-        "prefix": 10041,
-        "name": "Basilisk",
-        "symbol": "BSX",
-        "iconURL": "https://cdn.polkaholic.io/basilisk.png",
-        "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
-        "nodes": [
-            {
-                "url": "wss://rpc.basilisk.cloud",
-                "type": "Basilisk"
+         },
+         {
+            "type":"ORML",
+            "symbol":"XRT",
+            "typeExtras":{
+               "currencyIdScale":"0x10000000",
+               "currencyIdType":"u32",
+               "existentialDeposit":"1683502",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "type": "Native",
-                "symbol": "BSX"
-            },
-            {
-                "type": "ORML",
-                "symbol": "KSM",
-                "typeExtras": {
-                    "currencyIdScale": "0x01000000",
-                    "currencyIdType": "u32",
-                    "existentialDeposit": "100000000"
-                }
-            },
-            {
-                "type": "ORML",
-                "symbol": "KUSD",
-                "typeExtras": {
-                    "currencyIdScale": "0x02000000",
-                    "currencyIdType": "u32",
-                    "existentialDeposit": "10000000000"
-                }
-            },
-            {
-                "type": "ORML",
-                "symbol": "TNKR",
-                "typeExtras": {
-                    "currencyIdScale": "0x06000000",
-                    "currencyIdType": "u32",
-                    "existentialDeposit": "1000000000"
-                }
-            },
-            {
-                "type": "ORML",
-                "symbol": "USDT",
-                "typeExtras": {
-                    "currencyIdScale": "0x0e000000",
-                    "currencyIdType": "u32",
-                    "existentialDeposit": "10000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "type": "ORML",
-                "symbol": "XRT",
-                "typeExtras": {
-                    "currencyIdScale": "0x10000000",
-                    "currencyIdType": "u32",
-                    "existentialDeposit": "1683502",
-                    "transfersEnabled": true
-                }
+         }
+      ],
+      "explorers":{
+         "subscan":"https://basilisk.subscan.io/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"acala",
+      "prefix":10,
+      "name":"Acala",
+      "symbol":"ACA",
+      "iconURL":"https://cdn.polkaholic.io/acala.png",
+      "relayChain":"polkadot",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+      "nodes":[
+         {
+            "url":"wss://acala-rpc-0.aca-api.network",
+            "type":"Acala"
+         }
+      ],
+      "assets":[
+         {
+            "type":"Native",
+            "symbol":"ACA"
+         },
+         {
+            "type":"ORML",
+            "symbol":"LDOT",
+            "typeExtras":{
+               "currencyIdScale":"0x0003",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"500000000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "acala",
-        "prefix": 10,
-        "name": "Acala",
-        "symbol": "ACA",
-        "iconURL": "https://cdn.polkaholic.io/acala.png",
-        "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
-        "nodes": [
-            {
-                "url": "wss://acala-rpc-0.aca-api.network",
-                "type": "Acala"
+         },
+         {
+            "symbol":"AUSD",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x0001",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000000",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "type": "Native",
-                "symbol": "ACA"
-            },
-            {
-                "type": "ORML",
-                "symbol": "LDOT",
-                "typeExtras": {
-                    "currencyIdScale": "0x0003",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "500000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "AUSD",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x0001",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "DOT",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x0002",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "GLMR",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050000",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                
-                "symbol": "PARA",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050100",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "INTR",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050400",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "1000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "ASTR",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050200",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "IBTC",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050300",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100",
-                    "transfersEnabled": true
-                }
+         },
+         {
+            "symbol":"DOT",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x0002",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "karura",
-        "prefix": 8,
-        "name": "Karura",
-        "symbol": "KAR",
-        "iconURL": "https://cdn.polkaholic.io/karura.svg",
-        "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
-        "nodes": [
-            {
-                "url": "wss://acala-rpc-0.aca-api.network",
-                "type": "Acala"
+         },
+         {
+            "symbol":"GLMR",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050000",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000000000000",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "type": "Native",
-                "symbol": "KAR"
-            },
-            {
-                "symbol": "AUSD",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x0081",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "10000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "KSM",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x0082",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "RMRK",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050000",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "BNC",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x00a8",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "8000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "LKSM",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x0083",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "500000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "PHA",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x00aa",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "40000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "USDT",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050700",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "10000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "BSX",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050b00",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "1000000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
-                "symbol": "CRAB",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050d00",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "1000000000000000000",
-                    "transfersEnabled": true
-                }
+         },
+         {
+            "symbol":"PARA",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050100",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "khala",
-        "prefix": 30,
-        "name": "Khala",
-        "symbol": "PHA",
-        "iconURL": "https://cdn.polkaholic.io/khala.svg",
-        "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
-        "nodes": [
-            {
-                "url": "wss://khala.api.onfinality.io/public-ws",
-                "type": "Phala"
+         },
+         {
+            "symbol":"INTR",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050400",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"1000000000",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "symbol": "PHA",
-                "type": "Native"
-            },
-            {
-                "symbol": "KSM",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "0"
-                }
-            },
-            {
-                "symbol": "KAR",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "1"
-                }
-            },
-            {
-                "symbol": "BNC",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "2"
-                }
-            },
-            {
-                "symbol": "AUSD",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "4"
-                }
-            },
-            {
-                "symbol": "BSX",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "9"
-                }
-            },
-            {
-                "symbol": "KMA",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "8"
-                }
+         },
+         {
+            "symbol":"ASTR",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050200",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000000000000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "statemine",
-        "prefix": 2,
-        "name": "Statemine",
-        "symbol": "KSM",
-        "iconURL": "https://cdn.polkaholic.io/statemine.svg",
-        "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
-        "nodes": [
-            {
-                "url": "wss://statemine-rpc.polkadot.io",
-                "type": "Parity"
+         },
+         {
+            "symbol":"IBTC",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050300",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "symbol": "KSM",
-                "type": "Native"
-            },
-            {
-                "symbol": "RMRK",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "8"
-                }
-            },
-            {
-                "symbol": "USDT",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "1984"
-                }
+         }
+      ],
+      "explorers":{
+         "subscan":"https://acala.subscan.io/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"karura",
+      "prefix":8,
+      "name":"Karura",
+      "symbol":"KAR",
+      "iconURL":"https://cdn.polkaholic.io/karura.svg",
+      "relayChain":"kusama",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
+      "nodes":[
+         {
+            "url":"wss://acala-rpc-0.aca-api.network",
+            "type":"Acala"
+         }
+      ],
+      "assets":[
+         {
+            "type":"Native",
+            "symbol":"KAR"
+         },
+         {
+            "symbol":"AUSD",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x0081",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"10000000000",
+               "transfersEnabled":true
             }
-        ]
-    },
-    {
-        "id": "statemint",
-        "prefix": 0,
-        "name": "Statemint",
-        "symbol": "DOT",
-        "iconURL": "https://cdn.polkaholic.io/statemint.svg",
-        "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
-        "nodes": [
-            {
-                "url": "wss://statemint-rpc.polkadot.io",
-                "type": "Parity"
+         },
+         {
+            "symbol":"KSM",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x0082",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000",
+               "transfersEnabled":true
             }
-        ],
-        "assets": [
-            {
-                "symbol": "DOT",
-                "type": "Native"
-            },
-            {
-                "symbol": "USDT",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "1984"
-                }
+         },
+         {
+            "symbol":"RMRK",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050000",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"100000000",
+               "transfersEnabled":true
             }
-        ]
-    }
+         },
+         {
+            "symbol":"BNC",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x00a8",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"8000000000",
+               "transfersEnabled":true
+            }
+         },
+         {
+            "symbol":"LKSM",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x0083",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"500000000",
+               "transfersEnabled":true
+            }
+         },
+         {
+            "symbol":"PHA",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x00aa",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"40000000000",
+               "transfersEnabled":true
+            }
+         },
+         {
+            "symbol":"USDT",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050700",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"10000",
+               "transfersEnabled":true
+            }
+         },
+         {
+            "symbol":"BSX",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050b00",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"1000000000000",
+               "transfersEnabled":true
+            }
+         },
+         {
+            "symbol":"CRAB",
+            "type":"ORML",
+            "typeExtras":{
+               "currencyIdScale":"0x050d00",
+               "currencyIdType":"acala_primitives.currency.CurrencyId",
+               "existentialDeposit":"1000000000000000000",
+               "transfersEnabled":true
+            }
+         }
+      ],
+      "explorers":{
+         "subscan":"https://karura.subscan.io/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"khala",
+      "prefix":30,
+      "name":"Khala",
+      "symbol":"PHA",
+      "iconURL":"https://cdn.polkaholic.io/khala.svg",
+      "relayChain":"kusama",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
+      "nodes":[
+         {
+            "url":"wss://khala.api.onfinality.io/public-ws",
+            "type":"Phala"
+         }
+      ],
+      "assets":[
+         {
+            "symbol":"PHA",
+            "type":"Native"
+         },
+         {
+            "symbol":"KSM",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"0"
+            }
+         },
+         {
+            "symbol":"KAR",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"1"
+            }
+         },
+         {
+            "symbol":"BNC",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"2"
+            }
+         },
+         {
+            "symbol":"AUSD",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"4"
+            }
+         },
+         {
+            "symbol":"BSX",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"9"
+            }
+         },
+         {
+            "symbol":"KMA",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"8"
+            }
+         }
+      ],
+      "explorers":{
+         "subscan":"https://khala.subscan.io/account/",
+         "subid":"https://sub.id/"
+      }
+   },
+   {
+      "id":"statemine",
+      "prefix":2,
+      "name":"Statemine",
+      "symbol":"KSM",
+      "iconURL":"https://cdn.polkaholic.io/statemine.svg",
+      "relayChain":"kusama",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+      "nodes":[
+         {
+            "url":"wss://statemine-rpc.polkadot.io",
+            "type":"Parity"
+         }
+      ],
+      "assets":[
+         {
+            "symbol":"KSM",
+            "type":"Native"
+         },
+         {
+            "symbol":"RMRK",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"8"
+            }
+         },
+         {
+            "symbol":"USDT",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"1984"
+            }
+         }
+      ]
+   },
+   {
+      "id":"statemint",
+      "prefix":0,
+      "name":"Statemint",
+      "symbol":"DOT",
+      "iconURL":"https://cdn.polkaholic.io/statemint.svg",
+      "relayChain":"polkadot",
+      "typesURL":"https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
+      "nodes":[
+         {
+            "url":"wss://statemint-rpc.polkadot.io",
+            "type":"Parity"
+         }
+      ],
+      "assets":[
+         {
+            "symbol":"DOT",
+            "type":"Native"
+         },
+         {
+            "symbol":"USDT",
+            "type":"Statemine",
+            "typeExtras":{
+               "assetId":"1984"
+            }
+         }
+      ],
+      "explorers":{
+         "subscan":"https://kusama.subscan.io/account/",
+         "polkascan":"https://explorer.polkascan.io/kusama/account/",
+         "subid":"https://sub.id/"
+      }
+   }
 ]
