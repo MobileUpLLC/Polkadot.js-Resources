@@ -4,9 +4,9 @@
         "prefix": 0,
         "name": "Polkadot",
         "symbol": "DOT",
-        "iconURL": "https://cdn.polkaholic.io/polkadot.png",
+        "iconUrl": "https://cdn.polkaholic.io/polkadot.png",
         "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
         "nodes": [
             {
                 "url": "wss://rpc.polkadot.io",
@@ -25,9 +25,9 @@
         "prefix": 2,
         "name": "Kusama",
         "symbol": "KSM",
-        "iconURL": "https://cdn.polkaholic.io/kusama.svg",
+        "iconUrl": "https://cdn.polkaholic.io/kusama.svg",
         "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
         "nodes": [
             {
                 "url": "wss://kusama-rpc.polkadot.io",
@@ -46,9 +46,9 @@
         "prefix": 10041,
         "name": "Basilisk",
         "symbol": "BSX",
-        "iconURL": "https://cdn.polkaholic.io/basilisk.png",
+        "iconUrl": "https://cdn.polkaholic.io/basilisk.png",
         "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
         "nodes": [
             {
                 "url": "wss://rpc.basilisk.cloud",
@@ -114,9 +114,9 @@
         "prefix": 10,
         "name": "Acala",
         "symbol": "ACA",
-        "iconURL": "https://cdn.polkaholic.io/acala.png",
+        "iconUrl": "https://cdn.polkaholic.io/acala.png",
         "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
             {
                 "url": "wss://acala-rpc-0.aca-api.network",
@@ -216,9 +216,9 @@
         "prefix": 8,
         "name": "Karura",
         "symbol": "KAR",
-        "iconURL": "https://cdn.polkaholic.io/karura.svg",
+        "iconUrl": "https://cdn.polkaholic.io/karura.svg",
         "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
         "nodes": [
             {
                 "url": "wss://acala-rpc-0.aca-api.network",
@@ -327,9 +327,9 @@
         "prefix": 30,
         "name": "Khala",
         "symbol": "PHA",
-        "iconURL": "https://cdn.polkaholic.io/khala.svg",
+        "iconUrl": "https://cdn.polkaholic.io/khala.svg",
         "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
         "nodes": [
             {
                 "url": "wss://khala.api.onfinality.io/public-ws",
@@ -390,9 +390,9 @@
         "prefix": 2,
         "name": "Statemine",
         "symbol": "KSM",
-        "iconURL": "https://cdn.polkaholic.io/statemine.svg",
+        "iconUrl": "https://cdn.polkaholic.io/statemine.svg",
         "relayChain": "kusama",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
             {
                 "url": "wss://statemine-rpc.polkadot.io",
@@ -425,9 +425,9 @@
         "prefix": 0,
         "name": "Statemint",
         "symbol": "DOT",
-        "iconURL": "https://cdn.polkaholic.io/statemint.svg",
+        "iconUrl": "https://cdn.polkaholic.io/statemint.svg",
         "relayChain": "polkadot",
-        "typesURL": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
         "nodes": [
             {
                 "url": "wss://statemint-rpc.polkadot.io",
