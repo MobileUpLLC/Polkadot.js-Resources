@@ -9,8 +9,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
         "nodes": [
             {
-                "url": "wss://rpc.polkadot.io",
-                "type": "Parity"
+                "id": "Parity",
+                "url": "wss://rpc.polkadot.io"
             }
         ],
         "assets": [
@@ -30,8 +30,9 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
         "nodes": [
             {
-                "url": "wss://kusama-rpc.polkadot.io",
-                "type": "Parity"
+                "id": "Parity",
+                "url": "wss://kusama-rpc.polkadot.io"
+                
             }
         ],
         "assets": [
@@ -51,8 +52,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
         "nodes": [
             {
-                "url": "wss://rpc.basilisk.cloud",
-                "type": "Basilisk"
+                "id": "Basilisk",
+                "url": "wss://rpc.basilisk.cloud"
             }
         ],
         "assets": [
@@ -119,8 +120,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
             {
-                "url": "wss://acala-rpc-0.aca-api.network",
-                "type": "Acala"
+                "id": "Acala",
+                "url": "wss://acala-rpc-0.aca-api.network"
             }
         ],
         "assets": [
@@ -221,8 +222,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
         "nodes": [
             {
-                "url": "wss://acala-rpc-0.aca-api.network",
-                "type": "Acala"
+                "id": "Acala",
+                "url": "wss://acala-rpc-0.aca-api.network"
             }
         ],
         "assets": [
@@ -332,8 +333,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
         "nodes": [
             {
-                "url": "wss://khala.api.onfinality.io/public-ws",
-                "type": "Phala"
+                "id": "Phala",
+                "url": "wss://khala.api.onfinality.io/public-ws"
             }
         ],
         "assets": [
@@ -395,8 +396,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
             {
-                "url": "wss://statemine-rpc.polkadot.io",
-                "type": "Parity"
+                "id": "Parity",
+                "url": "wss://statemine-rpc.polkadot.io"
             }
         ],
         "assets": [
@@ -430,8 +431,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
         "nodes": [
             {
-                "url": "wss://statemint-rpc.polkadot.io",
-                "type": "Parity"
+                "id": "Parity",
+                "url": "wss://statemint-rpc.polkadot.io"
             }
         ],
         "assets": [
