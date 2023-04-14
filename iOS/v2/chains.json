@@ -18,7 +18,12 @@
                 "type": "Native",
                 "symbol": "DOT"
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://polkadot.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/polkadot/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "kusama",
@@ -40,7 +45,12 @@
                 "type": "Native",
                 "symbol": "KSM"
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "basilisk",
@@ -108,7 +118,11 @@
                     "transfersEnabled": true
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://basilisk.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "acala",
@@ -210,7 +224,11 @@
                     "transfersEnabled": true
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://acala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "karura",
@@ -321,7 +339,11 @@
                     "transfersEnabled": true
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://karura.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "khala",
@@ -384,7 +406,11 @@
                     "assetId": "8"
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://khala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "statemine",
@@ -419,7 +445,12 @@
                     "assetId": "1984"
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+      }
     },
     {
         "id": "statemint",
@@ -447,6 +478,11 @@
                     "assetId": "1984"
                 }
             }
-        ]
+        ],
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        }
     }
 ]
