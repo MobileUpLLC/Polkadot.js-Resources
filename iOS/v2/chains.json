@@ -20,10 +20,10 @@
             }
         ],
         "explorers": {
-         "subscan": "https://polkadot.subscan.io/account/",
-         "polkascan": "https://explorer.polkascan.io/polkadot/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://polkadot.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/polkadot/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "kusama",
@@ -47,10 +47,10 @@
             }
         ],
         "explorers": {
-         "subscan": "https://kusama.subscan.io/account/",
-         "polkascan": "https://explorer.polkascan.io/kusama/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "basilisk",
@@ -120,9 +120,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://basilisk.subscan.io/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://basilisk.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "acala",
@@ -226,9 +226,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://acala.subscan.io/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://acala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "karura",
@@ -341,9 +341,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://karura.subscan.io/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://karura.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "khala",
@@ -408,9 +408,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://khala.subscan.io/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://khala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        }
     },
     {
         "id": "statemine",
@@ -447,9 +447,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://kusama.subscan.io/account/",
-         "polkascan": "https://explorer.polkascan.io/kusama/account/",
-         "subid": "https://sub.id/"
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
       }
     },
     {
@@ -480,9 +480,9 @@
             }
         ],
         "explorers": {
-         "subscan": "https://kusama.subscan.io/account/",
-         "polkascan": "https://explorer.polkascan.io/kusama/account/",
-         "subid": "https://sub.id/"
-      }
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        }
     }
 ]
