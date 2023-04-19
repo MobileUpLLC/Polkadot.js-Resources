@@ -103,6 +103,12 @@
                 "type": "ormlAsset"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
+                "symbol": "kUSD",
+                "precision": 12,
+                "type": "ormlAsset"
+            },
+            {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
                 "precision": 12,
@@ -476,6 +482,12 @@
                 "symbol": "BSX",
                 "precision": 12,
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg"
+            },
+            {
+                "symbol": "TNKR",
+                "precision": 12,
+                "type": "ormlAsset",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/TNKR.svg"
             }
         ],
         "subscanUrl": "https://basilisk.api.subscan.io",
