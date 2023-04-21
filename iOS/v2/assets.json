@@ -3,132 +3,132 @@
         "name": "Polkadot",
         "symbol": "DOT",
         "decimals": 10,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/DOT.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/DOT.pdf"
     },
     {
         "name": "KSM",
         "symbol": "KSM",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KSM.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KSM.pdf"
     },
     {
         "name": "BSX",
         "symbol": "BSX",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BSX.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BSX.pdf"
     },
     {
         "name": "AUSD",
         "symbol": "KUSD",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AUSD.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KUSD.pdf"
     },
     {
         "name": "AUSD",
         "symbol": "AUSD",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/AUSD.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/AUSD.pdf"
     },
     {
         "name": "TNKR",
         "symbol": "TNKR",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/TNKR.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/TNKR.pdf"
     },
     {
         "name": "USDT",
         "symbol": "USDT",
         "decimals": 6,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/USDT.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/USDT.pdf"
     },
     {
         "name": "XRT",
         "symbol": "XRT",
         "decimals": 9,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/XRT.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/XRT.pdf"
     },
     {
         "name": "Acala",
         "symbol": "ACA",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ACA.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ACA.pdf"
     },
     {
         "name": "Liquid DOT",
         "symbol": "LDOT",
         "decimals": 10,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LDOT.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LDOT.pdf"
     },
     {
         "name": "Moonbeam",
         "symbol": "GLMR",
         "decimals": 18,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/GLMR.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/GLMR.pdf"
     },
     {
         "name": "Parallel",
         "symbol": "PARA",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/PARA.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PARA.pdf"
     },
     {
         "name": "Interlay",
         "symbol": "INTR",
         "decimals": 10,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/INTR.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/INTR.pdf"
     },
     {
         "name": "Astar Native Token",
         "symbol": "ASTR",
         "decimals": 18,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/ASTR.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ASTR.pdf"
     },
     {
         "name": "interBTC",
         "symbol": "IBTC",
         "decimals": 8,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/iBTC.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/IBTC.pdf"
     },
     {
         "name": "RMRK",
         "symbol": "RMRK",
         "decimals": 10,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/RMRK.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/RMRK.pdf"
     },
     {
         "name": "BNC",
         "symbol": "BNC",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/BNC.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BNC.pdf"
     },
     {
         "name": "LKSM",
         "symbol": "LKSM",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/LKSM.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LKSM.pdf"
     },
     {
         "name": "PHA",
         "symbol": "PHA",
         "decimals": 12,
-        "iconUrl": "https://github.com/soramitsu/fearless-utils/blob/master/icons/tokens/coloured/PHA.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PHA.pdf"
     },
     {
         "name": "CRAB",
         "symbol": "CRAB",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/CRAB.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/CRAB.pdf"
     },
     {
         "name": "KAR",
         "symbol": "KAR",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KAR.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KAR.pdf"
     },
     {
         "name": "Calamari",
         "symbol": "KMA",
         "decimals": 12,
-        "iconUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/tokens/coloured/KMA.svg"
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KMA.pdf"
     }
 ]
