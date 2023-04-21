@@ -4,7 +4,7 @@
         "prefix": 0,
         "name": "Polkadot",
         "symbol": "DOT",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
         "relayChain": "polkadot",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
         "nodes": [
@@ -30,7 +30,7 @@
         "prefix": 2,
         "name": "Kusama",
         "symbol": "KSM",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.svg",
         "relayChain": "kusama",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
         "nodes": [
@@ -57,7 +57,7 @@
         "prefix": 10041,
         "name": "Basilisk",
         "symbol": "BSX",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.svg",
         "relayChain": "kusama",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
         "nodes": [
@@ -129,7 +129,7 @@
         "prefix": 10,
         "name": "Acala",
         "symbol": "ACA",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.svg",
         "relayChain": "polkadot",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
@@ -235,7 +235,7 @@
         "prefix": 8,
         "name": "Karura",
         "symbol": "KAR",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.svg",
         "relayChain": "kusama",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
         "nodes": [
@@ -350,7 +350,7 @@
         "prefix": 30,
         "name": "Khala",
         "symbol": "PHA",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.svg",
         "relayChain": "kusama",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
         "nodes": [
@@ -417,7 +417,7 @@
         "prefix": 2,
         "name": "Statemine",
         "symbol": "KSM",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemine.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemine.svg",
         "relayChain": "kusama",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "nodes": [
@@ -457,7 +457,7 @@
         "prefix": 0,
         "name": "Statemint",
         "symbol": "DOT",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemint.pdf",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemint.svg",
         "relayChain": "polkadot",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
         "nodes": [
