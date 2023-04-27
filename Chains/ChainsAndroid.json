@@ -115,17 +115,20 @@
                 "type": "ormlAsset"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/RMRK.svg",
                 "symbol": "RMRK",
                 "precision": 10,
                 "type": "foreignAsset",
                 "currencyId": "0"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BNC.svg",
                 "symbol": "BNC",
                 "precision": 12,
                 "type": "ormlAsset"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/LKSM.svg",
                 "symbol": "LKSM",
                 "precision": 12,
                 "type": "ormlAsset"
@@ -188,6 +191,7 @@
                 "currencyId": "7"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KMA.svg",
                 "symbol": "KMA",
                 "precision": 12,
                 "type": "foreignAsset",
@@ -237,6 +241,7 @@
                 "currencyId": "15"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/CRAB.svg",
                 "symbol": "CRAB",
                 "precision": 18,
                 "type": "foreignAsset",
@@ -264,6 +269,7 @@
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/RMRK.svg",
                 "symbol": "RMRK",
                 "precision": 10
             },
@@ -289,6 +295,7 @@
                 "precision": 6
             }
         ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Statemine.svg",
         "subscanUrl": "https://statemine.api.subscan.io",
         "nodes": [
             {
@@ -322,10 +329,12 @@
         "name": "Acala",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/ACA.svg",
                 "symbol": "ACA",
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/LDOT.svg",
                 "symbol": "LDOT",
                 "precision": 10,
                 "type": "ormlAsset"
@@ -349,12 +358,14 @@
                 "currencyId": "13"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/GLMR.svg",
                 "symbol": "GLMR",
                 "precision": 18,
                 "type": "foreignAsset",
                 "currencyId": "0"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PARA.svg",
                 "symbol": "PARA",
                 "precision": 12,
                 "type": "foreignAsset",
@@ -371,20 +382,24 @@
                 "currencyId": "0"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/INTR.svg",
                 "symbol": "INTR",
                 "precision": 10,
                 "type": "foreignAsset",
                 "currencyId": "4"
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/ASTR.svg",
                 "symbol": "ASTR",
                 "precision": 18
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/EQ.svg",
                 "symbol": "EQ",
                 "precision": 9
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/IBTC.svg",
                 "symbol": "iBTC",
                 "precision": 8
             }
@@ -415,6 +430,7 @@
                 "precision": 6
             }
         ],
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Statemint.svg",
         "subscanUrl": "https://statemint.api.subscan.io",
         "nodes": [
             {
@@ -450,10 +466,12 @@
         "name": "Bifrost Polkadot",
         "assets": [
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BNC.svg",
                 "symbol": "BNC",
                 "precision": 12
             },
             {
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/GLMR.svg",
                 "symbol": "GLMR",
                 "precision": 18
             },
