@@ -1,18 +1,4 @@
-<svg id="layer_1" data-name="layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <defs>
-    <style>
-      .cls-1 {
-      fill: #d1ff52;
-      }
-    </style>
-  </defs>
-  <title>board 14</title>
-  <circle cx="250" cy="250" r="250" />
-  <rect class="cls-1" x="180" y="259.85" width="171.5" height="57.17" />
-  <rect class="cls-1" x="351.51" y="174.1" width="57.17" height="85.76" />
-  <polygon class="cls-1"
-           points="180 317.03 122.82 317.03 122.82 331.32 122.82 345.62 122.82 402.78 179.99 402.78 179.99 345.62 180 345.62 180 317.03" />
-  <polygon class="cls-1"
-           points="351.51 116.93 180 116.93 171.78 116.93 122.82 116.93 122.82 231.27 122.82 249.52 122.82 259.86 180 259.86 180 249.52 180 231.27 180 174.1 351.51 174.1 351.51 116.93" />
-  <rect class="cls-1" x="180" y="259.85" width="171.5" height="57.17" />
+<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="36" height="36" fill="black"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M24.9998 8H13.001H12.426H9V16.0003V17.2777V17.9998H13.001V17.2777V16.0003V12.0002H24.9998V8ZM29 12.0002H24.9998V18L13.001 17.9998V22.0002H24.9998V18H29V12.0002ZM9 22.0002H13.001V24.0007L13.0002 28H9V24.0007V23.0005V22.0002Z" fill="#DAFE6F"/>
 </svg>
