@@ -240,8 +240,8 @@
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
         "nodes": [
             {
-                "id": "Acala",
-                "url": "wss://acala-rpc-0.aca-api.network"
+                "id": "Acala Foundation 1",
+                "url": "wss://karura-rpc-1.aca-api.network/"
             }
         ],
         "assets": [
