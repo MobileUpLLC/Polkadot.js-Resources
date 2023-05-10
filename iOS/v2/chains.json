@@ -451,38 +451,5 @@
             "polkascan": "https://explorer.polkascan.io/kusama/account/",
             "subid": "https://sub.id/"
       }
-    },
-    {
-        "id": "statemint",
-        "prefix": 0,
-        "name": "Statemint",
-        "symbol": "DOT",
-        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemint.svg",
-        "relayChain": "polkadot",
-        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemint.json",
-        "nodes": [
-            {
-                "id": "Parity",
-                "url": "wss://statemint-rpc.polkadot.io"
-            }
-        ],
-        "assets": [
-            {
-                "symbol": "DOT",
-                "type": "Native"
-            },
-            {
-                "symbol": "USDT",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "1984"
-                }
-            }
-        ],
-        "explorers": {
-            "subscan": "https://kusama.subscan.io/account/",
-            "polkascan": "https://explorer.polkascan.io/kusama/account/",
-            "subid": "https://sub.id/"
-        }
     }
 ]
