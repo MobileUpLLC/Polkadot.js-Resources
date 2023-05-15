@@ -40,26 +40,6 @@
         "addressPrefix": 2
     },
     {
-        "id": "e143f23803ac50e8f6f8e62695d1ce9e4e1d68aa36c1cd2cfd15340213f3423e",
-        "name": "Westend",
-        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Westend.svg",
-        "assets": [
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/WND.svg",
-                "symbol": "WND",
-                "precision": 12
-            }
-        ],
-        "subscanUrl": "https://westend.api.subscan.io",
-        "nodes": [
-            {
-                "url": "wss://westend-rpc.polkadot.io",
-                "name": "Parity node"
-            }
-        ],
-        "addressPrefix": 42
-    },
-    {
         "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "parentId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "name": "Khala",
@@ -71,26 +51,8 @@
                 "precision": 12
             },
             {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
-                "symbol": "KSM",
-                "precision": 12,
-                "type": "ormlAsset"
-            },
-            {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
-                "precision": 12,
-                "type": "ormlAsset"
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BNC.svg",
-                "symbol": "BNC",
-                "precision": 12,
-                "type": "ormlAsset"
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/AUSD.svg",
-                "symbol": "AUSD",
                 "precision": 12,
                 "type": "ormlAsset"
             },
@@ -100,12 +62,6 @@
                 "precision": 12,
                 "type": "ormlAsset",
                 "currencyId": "11"
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KMA.svg",
-                "symbol": "KMA",
-                "precision": 12,
-                "type": "ormlAsset"
             }
         ],
         "subscanUrl": "https://khala.api.subscan.io",
@@ -177,13 +133,6 @@
                 "precision": 12,
                 "type": "foreignAsset",
                 "currencyId": "11"
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/CRAB.svg",
-                "symbol": "CRAB",
-                "precision": 18,
-                "type": "foreignAsset",
-                "currencyId": "13"
             }
         ],
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Karura.svg",
@@ -204,17 +153,20 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12
+                "precision": 12,
+                "type": "ormlAsset"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/RMRK.svg",
                 "symbol": "RMRK",
-                "precision": 10
+                "precision": 10,
+                "type": "ormlAsset"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
-                "precision": 6
+                "precision": 6,
+                "type": "ormlAsset"
             }
         ],
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Statemine.svg",
@@ -261,13 +213,6 @@
                 "precision": 18,
                 "type": "foreignAsset",
                 "currencyId": "0"
-            },
-            {
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/PARA.svg",
-                "symbol": "PARA",
-                "precision": 12,
-                "type": "foreignAsset",
-                "currencyId": "1"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/INTR.svg",
