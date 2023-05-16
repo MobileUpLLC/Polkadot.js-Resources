@@ -253,36 +253,37 @@
             {
                 "symbol": "BSX",
                 "precision": 12,
+                "type": "basiliskNative",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg"
             },
             {
                 "symbol": "KSM",
                 "precision": 12,
-                "type": "ormlAsset",
+                "type": "basiliskAsset",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg"
             },
             {
                 "symbol": "KUSD",
                 "precision": 12,
-                "type": "ormlAsset",
+                "type": "basiliskAsset",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KUSD.svg"
             },
             {
                 "symbol": "TNKR",
                 "precision": 12,
-                "type": "ormlAsset",
+                "type": "basiliskAsset",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/TNKR.svg"
             },
             {
                 "symbol": "USDT",
                 "precision": 6,
-                "type": "ormlAsset",
+                "type": "basiliskAsset",
                 "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg"
             },
             {
                 "symbol": "XRT",
                 "precision": 9,
-                "type": "ormlAsset",
+                "type": "basiliskAsset",
                 "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg"
             }
         ],
