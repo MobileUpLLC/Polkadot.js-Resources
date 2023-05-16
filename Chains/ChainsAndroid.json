@@ -54,13 +54,14 @@
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
                 "precision": 12,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "1"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg",
                 "symbol": "BSX",
                 "precision": 12,
-                "type": "ormlAsset",
+                "type": "statemine",
                 "currencyId": "11"
             }
         ],
@@ -153,20 +154,21 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12,
-                "type": "ormlAsset"
+                "precision": 12
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/RMRK.svg",
                 "symbol": "RMRK",
                 "precision": 10,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "8"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
                 "precision": 6,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "1984"
             }
         ],
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Statemine.svg",
