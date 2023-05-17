@@ -17,7 +17,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 0
+        "addressPrefix": 0,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/polkadot.json"
     },
     {
         "id": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
@@ -37,7 +38,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 2
+        "addressPrefix": 2,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/kusama.json"
     },
     {
         "id": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
@@ -71,7 +73,8 @@
                 "name": "Phala node"
             }
         ],
-        "addressPrefix": 30
+        "addressPrefix": 30,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/khala.json"
     },
     {
         "id": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
@@ -143,7 +146,8 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 8
+        "addressPrefix": 8,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/karura.json"
     },
     {
         "id": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
@@ -177,7 +181,8 @@
                 "name": "Parity node"
             }
         ],
-        "addressPrefix": 2
+        "addressPrefix": 2,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/statemine.json"
     },
     {
         "id": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -240,7 +245,8 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 10
+        "addressPrefix": 10,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/acala.json"
     },
     {
         "id": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
@@ -295,6 +301,7 @@
                 "name": "Dwellir node"
             }
         ],
-        "addressPrefix": 10041
+        "addressPrefix": 10041,
+        "typesSpecUrl": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/basilisk.json"
     }
 ]
