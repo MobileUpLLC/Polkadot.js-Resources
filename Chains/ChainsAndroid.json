@@ -56,13 +56,14 @@
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KAR.svg",
                 "symbol": "KAR",
                 "precision": 12,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "1"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg",
                 "symbol": "BSX",
                 "precision": 12,
-                "type": "ormlAsset",
+                "type": "statemine",
                 "currencyId": "11"
             }
         ],
@@ -157,20 +158,21 @@
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
                 "symbol": "KSM",
-                "precision": 12,
-                "type": "ormlAsset"
+                "precision": 12
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/RMRK.svg",
                 "symbol": "RMRK",
                 "precision": 10,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "8"
             },
             {
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "symbol": "USDT",
                 "precision": 6,
-                "type": "ormlAsset"
+                "type": "statemine",
+                "currencyId": "1984"
             }
         ],
         "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Chains/Statemine.svg",
@@ -257,37 +259,43 @@
             {
                 "symbol": "BSX",
                 "precision": 12,
+                "type": "basiliskNative",
                 "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/BSX.svg"
             },
             {
                 "symbol": "KSM",
                 "precision": 12,
-                "type": "ormlAsset",
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg"
+                "type": "basiliskAsset",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KSM.svg",
+                "currencyId": "1"
             },
             {
                 "symbol": "KUSD",
                 "precision": 12,
-                "type": "ormlAsset",
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KUSD.svg"
+                "type": "basiliskAsset",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/KUSD.svg",
+                "currencyId": "2"
             },
             {
                 "symbol": "TNKR",
                 "precision": 12,
-                "type": "ormlAsset",
-                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/TNKR.svg"
+                "type": "basiliskAsset",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/TNKR.svg",
+                "currencyId": "6"
             },
             {
                 "symbol": "USDT",
                 "precision": 6,
-                "type": "ormlAsset",
-                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg"
+                "type": "basiliskAsset",
+                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
+                "currencyId": "14"
             },
             {
                 "symbol": "XRT",
                 "precision": 9,
-                "type": "ormlAsset",
-                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg"
+                "type": "basiliskAsset",
+                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg",
+                "currencyId": "10"
             }
         ],
         "subscanUrl": "https://basilisk.api.subscan.io",
