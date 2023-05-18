@@ -287,14 +287,14 @@
                 "symbol": "USDT",
                 "precision": 6,
                 "type": "basiliskAsset",
-                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/USDT.svg",
                 "currencyId": "14"
             },
             {
                 "symbol": "XRT",
                 "precision": 9,
                 "type": "basiliskAsset",
-                "iconURL": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg",
+                "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/main/Icons/Assets/XRT.svg",
                 "currencyId": "10"
             }
         ],
