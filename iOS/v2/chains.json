@@ -184,17 +184,6 @@
                 }
             },
             {
-                
-                "symbol": "PARA",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050100",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "100000000000",
-                    "transfersEnabled": true
-                }
-            },
-            {
                 "symbol": "INTR",
                 "type": "ORML",
                 "typeExtras": {
@@ -328,16 +317,6 @@
                     "existentialDeposit": "1000000000000",
                     "transfersEnabled": true
                 }
-            },
-            {
-                "symbol": "CRAB",
-                "type": "ORML",
-                "typeExtras": {
-                    "currencyIdScale": "0x050d00",
-                    "currencyIdType": "acala_primitives.currency.CurrencyId",
-                    "existentialDeposit": "1000000000000000000",
-                    "transfersEnabled": true
-                }
             }
         ],
         "explorers": {
@@ -365,13 +344,6 @@
                 "type": "Native"
             },
             {
-                "symbol": "KSM",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "0"
-                }
-            },
-            {
                 "symbol": "KAR",
                 "type": "Statemine",
                 "typeExtras": {
@@ -379,31 +351,10 @@
                 }
             },
             {
-                "symbol": "BNC",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "2"
-                }
-            },
-            {
-                "symbol": "AUSD",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "4"
-                }
-            },
-            {
                 "symbol": "BSX",
                 "type": "Statemine",
                 "typeExtras": {
                     "assetId": "9"
-                }
-            },
-            {
-                "symbol": "KMA",
-                "type": "Statemine",
-                "typeExtras": {
-                    "assetId": "8"
                 }
             }
         ],
