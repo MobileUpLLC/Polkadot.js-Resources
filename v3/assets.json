@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Polkadot",
+        "symbol": "DOT",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/DOT.svg"
+    },
+    {
+        "name": "KSM",
+        "symbol": "KSM",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KSM.svg"
+    },
+    {
+        "name": "BSX",
+        "symbol": "BSX",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BSX.svg"
+    },
+    {
+        "name": "AUSD",
+        "symbol": "KUSD",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KUSD.svg"
+    },
+    {
+        "name": "AUSD",
+        "symbol": "AUSD",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/AUSD.svg"
+    },
+    {
+        "name": "TNKR",
+        "symbol": "TNKR",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/TNKR.svg"
+    },
+    {
+        "name": "USDT",
+        "symbol": "USDT",
+        "decimals": 6,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/USDT.svg"
+    },
+    {
+        "name": "XRT",
+        "symbol": "XRT",
+        "decimals": 9,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/XRT.svg"
+    },
+    {
+        "name": "Acala",
+        "symbol": "ACA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ACA.svg"
+    },
+    {
+        "name": "Liquid DOT",
+        "symbol": "LDOT",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LDOT.svg"
+    },
+    {
+        "name": "Moonbeam",
+        "symbol": "GLMR",
+        "decimals": 18,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/GLMR.svg"
+    },
+    {
+        "name": "Parallel",
+        "symbol": "PARA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PARA.svg"
+    },
+    {
+        "name": "Interlay",
+        "symbol": "INTR",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/INTR.svg"
+    },
+    {
+        "name": "Astar Native Token",
+        "symbol": "ASTR",
+        "decimals": 18,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ASTR.svg"
+    },
+    {
+        "name": "interBTC",
+        "symbol": "IBTC",
+        "decimals": 8,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/IBTC.svg"
+    },
+    {
+        "name": "RMRK",
+        "symbol": "RMRK",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/RMRK.svg"
+    },
+    {
+        "name": "BNC",
+        "symbol": "BNC",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BNC.svg"
+    },
+    {
+        "name": "LKSM",
+        "symbol": "LKSM",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LKSM.svg"
+    },
+    {
+        "name": "PHA",
+        "symbol": "PHA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PHA.svg"
+    },
+    {
+        "name": "CRAB",
+        "symbol": "CRAB",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/CRAB.svg"
+    },
+    {
+        "name": "KAR",
+        "symbol": "KAR",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KAR.svg"
+    },
+    {
+        "name": "Calamari",
+        "symbol": "KMA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KMA.svg"
+    }
+]
