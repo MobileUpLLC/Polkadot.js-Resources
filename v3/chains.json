@@ -17,8 +17,8 @@
         ],
         "assets": [
             {
-                "type": "Native",
-                "symbol": "DOT"
+                "symbol": "DOT",
+                "type": "Native"
             }
         ],
         "explorers": {
@@ -46,8 +46,8 @@
         ],
         "assets": [
             {
-                "type": "Native",
-                "symbol": "KSM"
+                "symbol": "KSM",
+                "type": "Native"
             }
         ],
         "explorers": {
@@ -74,12 +74,13 @@
         ],
         "assets": [
             {
-                "type": "Native",
-                "symbol": "BSX"
+                "symbol": "BSX",
+                "type": "Native"
             },
             {
-                "type": "ORML",
                 "symbol": "KSM",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "1",
                     "currencyIdScale": "0x01000000",
@@ -88,8 +89,9 @@
                 }
             },
             {
-                "type": "ORML",
                 "symbol": "KUSD",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "2",
                     "currencyIdScale": "0x02000000",
@@ -98,8 +100,9 @@
                 }
             },
             {
-                "type": "ORML",
                 "symbol": "TNKR",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "6",
                     "currencyIdScale": "0x06000000",
@@ -108,8 +111,9 @@
                 }
             },
             {
-                "type": "ORML",
                 "symbol": "USDT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "14",
                     "currencyIdScale": "0x0e000000",
@@ -119,8 +123,9 @@
                 }
             },
             {
-                "type": "ORML",
                 "symbol": "XRT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "10",
                     "currencyIdScale": "0x10000000",
@@ -153,12 +158,13 @@
         ],
         "assets": [
             {
-                "type": "Native",
-                "symbol": "ACA"
+                "symbol": "ACA",
+                "type": "Native"
             },
             {
-                "type": "ORML",
                 "symbol": "LDOT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0003",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -169,6 +175,7 @@
             {
                 "symbol": "AUSD",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0001",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -179,6 +186,7 @@
             {
                 "symbol": "DOT",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0002",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -189,6 +197,7 @@
             {
                 "symbol": "GLMR",
                 "type": "ORML",
+                "typeAndroid": "foreignAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "0",
                     "currencyIdScale": "0x050000",
@@ -199,6 +208,7 @@
             },
             {
                 "symbol": "INTR",
+                "typeAndroid": "foreignAsset",
                 "type": "ORML",
                 "typeExtras": {
                     "currencyIdAndroid": "4",
@@ -252,12 +262,13 @@
         ],
         "assets": [
             {
-                "type": "Native",
-                "symbol": "KAR"
+                "symbol": "KAR",
+                "type": "Native"
             },
             {
                 "symbol": "AUSD",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0081",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -268,6 +279,7 @@
             {
                 "symbol": "KSM",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0082",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -278,6 +290,7 @@
             {
                 "symbol": "RMRK",
                 "type": "ORML",
+                "typeAndroid": "foreignAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "0",
                     "currencyIdScale": "0x050000",
@@ -289,6 +302,7 @@
             {
                 "symbol": "BNC",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x00a8",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -299,6 +313,7 @@
             {
                 "symbol": "LKSM",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x0083",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -309,6 +324,7 @@
             {
                 "symbol": "PHA",
                 "type": "ORML",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdScale": "0x00aa",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
@@ -319,6 +335,7 @@
             {
                 "symbol": "USDT",
                 "type": "ORML",
+                "typeAndroid": "foreignAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "7",
                     "currencyIdScale": "0x050700",
@@ -330,6 +347,7 @@
             {
                 "symbol": "BSX",
                 "type": "ORML",
+                "typeAndroid": "foreignAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "11",
                     "currencyIdScale": "0x050b00",
@@ -368,6 +386,7 @@
             {
                 "symbol": "KAR",
                 "type": "Statemine",
+                "typeAndroid": "statemine",
                 "typeExtras": {
                     "currencyIdAndroid": "1",
                     "assetId": "1"
@@ -376,6 +395,7 @@
             {
                 "symbol": "BSX",
                 "type": "Statemine",
+                "typeAndroid": "statemine",
                 "typeExtras": {
                     "currencyIdAndroid": "11",
                     "assetId": "9"
@@ -411,6 +431,7 @@
             {
                 "symbol": "RMRK",
                 "type": "Statemine",
+                "typeAndroid": "statemine",
                 "typeExtras": {
                     "currencyIdAndroid": "8",
                     "assetId": "8"
@@ -419,6 +440,7 @@
             {
                 "symbol": "USDT",
                 "type": "Statemine",
+                "typeAndroid": "statemine",
                 "typeExtras": {
                     "currencyIdAndroid": "1984",
                     "assetId": "1984"
