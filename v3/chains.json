@@ -1,6 +1,7 @@
 [
     {
         "id": "polkadot",
+        "idAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "prefix": 0,
         "name": "Polkadot",
         "symbol": "DOT",
@@ -28,6 +29,7 @@
     },
     {
         "id": "kusama",
+        "idAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "prefix": 2,
         "name": "Kusama",
         "symbol": "KSM",
@@ -56,6 +58,7 @@
     },
     {
         "id": "basilisk",
+        "idAndroid": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
         "prefix": 10041,
         "name": "Basilisk",
         "symbol": "BSX",
@@ -134,6 +137,7 @@
     },
     {
         "id": "acala",
+        "idAndroid": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
         "prefix": 10,
         "name": "Acala",
         "symbol": "ACA",
@@ -232,6 +236,7 @@
     },
     {
         "id": "karura",
+        "idAndroid": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
         "prefix": 8,
         "name": "Karura",
         "symbol": "KAR",
@@ -341,6 +346,7 @@
     },
     {
         "id": "khala",
+        "idAndroid": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "prefix": 30,
         "name": "Khala",
         "symbol": "PHA",
@@ -383,6 +389,7 @@
     },
     {
         "id": "statemine",
+        "idAndroid": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "prefix": 2,
         "name": "Statemine",
         "symbol": "KSM",
