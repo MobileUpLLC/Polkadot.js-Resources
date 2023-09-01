@@ -7,6 +7,7 @@
         "symbol": "DOT",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
         "relayChain": "polkadot",
+        "relayChainAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/polkadot.json",
         "nodes": [
@@ -35,6 +36,7 @@
         "symbol": "KSM",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.svg",
         "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/kusama.json",
         "nodes": [
@@ -64,6 +66,7 @@
         "symbol": "BSX",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.svg",
         "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/basilisk.json",
         "nodes": [
@@ -148,6 +151,7 @@
         "symbol": "ACA",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.svg",
         "relayChain": "polkadot",
+        "relayChainAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/acala.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/acala.json",
         "nodes": [
@@ -252,6 +256,7 @@
         "symbol": "KAR",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.svg",
         "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/karura.json",
         "nodes": [
@@ -370,6 +375,7 @@
         "symbol": "PHA",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.svg",
         "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/khala.json",
         "nodes": [
@@ -415,6 +421,7 @@
         "symbol": "KSM",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemine.svg",
         "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
         "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
         "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/statemine.json",
         "nodes": [
