@@ -1,0 +1,468 @@
+[
+    {
+        "id": "polkadot",
+        "idAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "prefix": 0,
+        "name": "Polkadot",
+        "symbol": "DOT",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
+        "relayChain": "polkadot",
+        "relayChainAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/polkadot.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/polkadot.json",
+        "nodes": [
+            {
+                "id": "Parity",
+                "url": "wss://rpc.polkadot.io"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "DOT",
+                "type": "Native"
+            }
+        ],
+        "explorers": {
+            "subscan": "https://polkadot.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/polkadot/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "polkadot.api.subscan.io"
+    },
+    {
+        "id": "kusama",
+        "idAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "prefix": 2,
+        "name": "Kusama",
+        "symbol": "KSM",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.svg",
+        "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/kusama.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/kusama.json",
+        "nodes": [
+            {
+                "id": "Parity",
+                "url": "wss://kusama-rpc.polkadot.io"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "KSM",
+                "type": "Native"
+            }
+        ],
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "kusama.api.subscan.io"
+    },
+    {
+        "id": "basilisk",
+        "idAndroid": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "prefix": 10041,
+        "name": "Basilisk",
+        "symbol": "BSX",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.svg",
+        "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/basilisk.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/basilisk.json",
+        "nodes": [
+            {
+                "id": "Basilisk",
+                "url": "wss://rpc.basilisk.cloud"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "BSX",
+                "type": "Native"
+            },
+            {
+                "symbol": "KSM",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "1",
+                    "currencyIdScale": "0x01000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "100000000"
+                }
+            },
+            {
+                "symbol": "KUSD",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "2",
+                    "currencyIdScale": "0x02000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000000000"
+                }
+            },
+            {
+                "symbol": "TNKR",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "6",
+                    "currencyIdScale": "0x06000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1000000000"
+                }
+            },
+            {
+                "symbol": "USDT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "14",
+                    "currencyIdScale": "0x0e000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "10000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "XRT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "10",
+                    "currencyIdScale": "0x10000000",
+                    "currencyIdType": "u32",
+                    "existentialDeposit": "1683502",
+                    "transfersEnabled": true
+                }
+            }
+        ],
+        "explorers": {
+            "subscan": "https://basilisk.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "basilisk.api.subscan.io"
+    },
+    {
+        "id": "acala",
+        "idAndroid": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "prefix": 10,
+        "name": "Acala",
+        "symbol": "ACA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.svg",
+        "relayChain": "polkadot",
+        "relayChainAndroid": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/acala.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/acala.json",
+        "nodes": [
+            {
+                "id": "Acala",
+                "url": "wss://acala-rpc-0.aca-api.network"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "ACA",
+                "type": "Native"
+            },
+            {
+                "symbol": "LDOT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0003",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "500000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "AUSD",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0001",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "DOT",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0002",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "GLMR",
+                "type": "ORML",
+                "typeAndroid": "foreignAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "0",
+                    "currencyIdScale": "0x050000",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "INTR",
+                "typeAndroid": "foreignAsset",
+                "type": "ORML",
+                "typeExtras": {
+                    "currencyIdAndroid": "4",
+                    "currencyIdScale": "0x050400",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "1000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "ASTR",
+                "type": "ORML",
+                "typeExtras": {
+                    "currencyIdScale": "0x050200",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "IBTC",
+                "type": "ORML",
+                "typeExtras": {
+                    "currencyIdScale": "0x050300",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100",
+                    "transfersEnabled": true
+                }
+            }
+        ],
+        "explorers": {
+            "subscan": "https://acala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "acala.api.subscan.io"
+    },
+    {
+        "id": "karura",
+        "idAndroid": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "prefix": 8,
+        "name": "Karura",
+        "symbol": "KAR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.svg",
+        "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/karura.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/karura.json",
+        "nodes": [
+            {
+                "id": "Acala Foundation 1",
+                "url": "wss://karura-rpc-1.aca-api.network/"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "KAR",
+                "type": "Native"
+            },
+            {
+                "symbol": "AUSD",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0081",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "10000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "KSM",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0082",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "RMRK",
+                "type": "ORML",
+                "typeAndroid": "foreignAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "0",
+                    "currencyIdScale": "0x050000",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "100000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "BNC",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x00a8",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "8000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "LKSM",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x0083",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "500000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "PHA",
+                "type": "ORML",
+                "typeAndroid": "ormlAsset",
+                "typeExtras": {
+                    "currencyIdScale": "0x00aa",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "40000000000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "USDT",
+                "type": "ORML",
+                "typeAndroid": "foreignAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "7",
+                    "currencyIdScale": "0x050700",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "10000",
+                    "transfersEnabled": true
+                }
+            },
+            {
+                "symbol": "BSX",
+                "type": "ORML",
+                "typeAndroid": "foreignAsset",
+                "typeExtras": {
+                    "currencyIdAndroid": "11",
+                    "currencyIdScale": "0x050b00",
+                    "currencyIdType": "acala_primitives.currency.CurrencyId",
+                    "existentialDeposit": "1000000000000",
+                    "transfersEnabled": true
+                }
+            }
+        ],
+        "explorers": {
+            "subscan": "https://karura.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "karura.api.subscan.io"
+    },
+    {
+        "id": "khala",
+        "idAndroid": "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "prefix": 30,
+        "name": "Khala",
+        "symbol": "PHA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.svg",
+        "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/khala.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/khala.json",
+        "nodes": [
+            {
+                "id": "Phala",
+                "url": "wss://khala.api.onfinality.io/public-ws"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "PHA",
+                "type": "Native"
+            },
+            {
+                "symbol": "KAR",
+                "type": "Statemine",
+                "typeAndroid": "statemine",
+                "typeExtras": {
+                    "currencyIdAndroid": "1",
+                    "assetId": "1"
+                }
+            },
+            {
+                "symbol": "BSX",
+                "type": "Statemine",
+                "typeAndroid": "statemine",
+                "typeExtras": {
+                    "currencyIdAndroid": "11",
+                    "assetId": "9"
+                }
+            }
+        ],
+        "explorers": {
+            "subscan": "https://khala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "khala.api.subscan.io"
+    },
+    {
+        "id": "statemine",
+        "idAndroid": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "prefix": 2,
+        "name": "Statemine",
+        "symbol": "KSM",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemine.svg",
+        "relayChain": "kusama",
+        "relayChainAndroid": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "typesUrl": "https://raw.githubusercontent.com/nova-wallet/nova-utils/master/chains/v2/types/statemine.json",
+        "typesUrlAndroid": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/type_registry/android/statemine.json",
+        "nodes": [
+            {
+                "id": "Parity",
+                "url": "wss://statemine-rpc.polkadot.io"
+            }
+        ],
+        "assets": [
+            {
+                "symbol": "KSM",
+                "type": "Native"
+            },
+            {
+                "symbol": "RMRK",
+                "type": "Statemine",
+                "typeAndroid": "statemine",
+                "typeExtras": {
+                    "currencyIdAndroid": "8",
+                    "assetId": "1"
+                }
+            },
+            {
+                "symbol": "BSX",
+                "type": "Statemine",
+                "typeAndroid": "statemine",
+                "typeExtras": {
+                    "currencyIdAndroid": "11",
+                    "assetId": "9"
+                }
+            }
+        ],
+        "explorers": {
+            "subscan": "https://statemine.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "statemine.api.subscan.io"
+    }
+]
