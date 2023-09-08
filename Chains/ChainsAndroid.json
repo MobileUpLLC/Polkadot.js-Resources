@@ -143,8 +143,8 @@
         "subscanUrl": "https://karura.api.subscan.io",
         "nodes": [
             {
-                "url": "wss://karura-rpc.dwellir.com",
-                "name": "Dwellir node"
+                "url": "wss://karura-rpc-1.aca-api.network/",
+                "name": "Acala Foundation 1"
             }
         ],
         "addressPrefix": 8,
