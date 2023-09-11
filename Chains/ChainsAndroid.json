@@ -143,8 +143,8 @@
         "subscanUrl": "https://karura.api.subscan.io",
         "nodes": [
             {
-                "url": "wss://karura-rpc-1.aca-api.network/",
-                "name": "Acala Foundation 1"
+                "url": "wss://karura-rpc-0.aca-api.network",
+                "name": "Acala Foundation 0"
             }
         ],
         "addressPrefix": 8,
