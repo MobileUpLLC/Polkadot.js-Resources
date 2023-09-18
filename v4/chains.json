@@ -300,7 +300,7 @@
                 "type": "ORML",
                 "typeAndroid": "foreignAsset",
                 "typeExtras": {
-                    "currencyIdAndroid": "0",
+                    "currencyIdAndroid": "1",
                     "currencyIdScale": "0x050000",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
                     "existentialDeposit": "100000000",
@@ -357,7 +357,7 @@
                 "type": "ORML",
                 "typeAndroid": "foreignAsset",
                 "typeExtras": {
-                    "currencyIdAndroid": "11",
+                    "currencyIdAndroid": "9",
                     "currencyIdScale": "0x050b00",
                     "currencyIdType": "acala_primitives.currency.CurrencyId",
                     "existentialDeposit": "1000000000000",
@@ -407,7 +407,7 @@
                 "type": "Statemine",
                 "typeAndroid": "statemine",
                 "typeExtras": {
-                    "currencyIdAndroid": "11",
+                    "currencyIdAndroid": "9",
                     "assetId": "9"
                 }
             }
@@ -445,7 +445,7 @@
                 "type": "Statemine",
                 "typeAndroid": "statemine",
                 "typeExtras": {
-                    "currencyIdAndroid": "8",
+                    "currencyIdAndroid": "1",
                     "assetId": "1"
                 }
             },
@@ -454,7 +454,7 @@
                 "type": "Statemine",
                 "typeAndroid": "statemine",
                 "typeExtras": {
-                    "currencyIdAndroid": "11",
+                    "currencyIdAndroid": "9",
                     "assetId": "9"
                 }
             }
