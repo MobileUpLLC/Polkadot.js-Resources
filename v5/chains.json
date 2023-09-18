@@ -409,7 +409,7 @@
             {
                 "symbol": "BSX",
                 "type": "Statemine",
-                "typeAndroid": "foreignAsset",
+                "typeAndroid": "ormlAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "9",
                     "assetId": "9"
