@@ -467,6 +467,6 @@
             "subscan": "https://assethub-kusama.subscan.io/account/",
             "subid": "https://sub.id/"
         },
-        "subscanApiHost": "assethub-kusama.subscan.io"
+        "subscanApiHost": "assethub-kusama.api.subscan.io"
     }
 ]
