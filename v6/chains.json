@@ -447,7 +447,7 @@
             {
                 "symbol": "RMRK",
                 "type": "Statemine",
-                "typeAndroid": "statemine",
+                "typeAndroid": "foreignAsset",
                 "typeExtras": {
                     "currencyIdAndroid": "1",
                     "assetId": "1"
