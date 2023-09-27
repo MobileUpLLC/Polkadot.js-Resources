@@ -436,7 +436,7 @@
         "nodes": [
             {
                 "id": "Parity",
-                "url": "wss://statemine-rpc.dwellir.com"
+                "url": "wss://kusama-asset-hub-rpc.polkadot.io"
             }
         ],
         "assets": [
