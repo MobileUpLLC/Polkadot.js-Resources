@@ -27,7 +27,9 @@
     },
     "KSM-AssetHub": {
       "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
-      "multiLocation": {}
+      "multiLocation": {
+        "parachainId": 1000
+      }
     },
     "ACA": {
       "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
@@ -101,7 +103,6 @@
     "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3": "1000000000",
     "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c": "200000000",
     "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a": "1000000000",
-    "d43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d": "200000000",
     "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755": "100000000"
   },
   "chains": [
