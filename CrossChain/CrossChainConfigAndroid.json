@@ -109,7 +109,7 @@
       "chainId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
       "assets": [
         {
-          "assetId": 0,
+          "assetId": "b0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe_KSM",
           "assetLocation": "KSM",
           "assetLocationPath": {
             "type": "relative"
@@ -165,7 +165,7 @@
       "chainId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
       "assets": [
         {
-          "assetId": 2,
+          "assetId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b_KSM",
           "assetLocation": "KSM",
           "assetLocationPath": {
             "type": "absolute"
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "assetId": 22,
+          "assetId": "baf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b_BSX",
           "assetLocation": "BSX",
           "assetLocationPath": {
             "type": "absolute"
@@ -230,7 +230,7 @@
       "chainId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
       "assets": [
         {
-          "assetId": 0,
+          "assetId": "91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3_DOT",
           "assetLocation": "DOT",
           "assetLocationPath": {
             "type": "relative"
@@ -258,7 +258,7 @@
       "chainId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
       "assets": [
         {
-          "assetId": 3,
+          "assetId": "fc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c_DOT",
           "assetLocation": "DOT",
           "assetLocationPath": {
             "type": "absolute"
@@ -286,7 +286,7 @@
       "chainId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
       "assets": [
         {
-          "assetId": 0,
+          "assetId": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a_KSM",
           "assetLocation": "KSM-AssetHub",
           "assetLocationPath": {
             "type": "absolute"
@@ -314,7 +314,7 @@
       "chainId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
       "assets": [
         {
-          "assetId": 0,
+          "assetId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755_BSX",
           "assetLocation": "BSX",
           "assetLocationPath": {
             "type": "absolute"
@@ -337,7 +337,7 @@
           ]
         },
         {
-          "assetId": 1,
+          "assetId": "a85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755_KSM",
           "assetLocation": "KSM",
           "assetLocationPath": {
             "type": "absolute"
