@@ -40,5 +40,25 @@
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "phala.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.svg",
+        "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "nodeUrl": "wss://acala-rpc-0.aca-api.network",
+        "explorers": {
+            "subscan": "https://acala.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "acala.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.svg",
+        "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "nodeUrl": "wss://karura-rpc-0.aca-api.network",
+        "explorers": {
+            "subscan": "https://karura.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "karura.api.subscan.io"
     }
 ]
