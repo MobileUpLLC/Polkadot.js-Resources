@@ -60,5 +60,15 @@
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "karura.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.svg",
+        "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "nodeUrl": "wss://rpc.basilisk.cloud",
+        "explorers": {
+            "subscan": "https://basilisk.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "basilisk.api.subscan.io"
     }
 ]
