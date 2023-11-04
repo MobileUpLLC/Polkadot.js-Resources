@@ -1,5 +1,27 @@
 [
     {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
+        "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "nodeUrl": "wss://rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://polkadot.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/polkadot/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "polkadot.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.svg",
+        "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "nodeUrl": "wss://kusama-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "kusama.api.subscan.io"
+    },
+    {
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.svg",
         "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
         "nodeUrl": "wss://khala.api.onfinality.io/public-ws",
