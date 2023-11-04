@@ -5,7 +5,7 @@
         "chainNodeUrl": "wss://khala.api.onfinality.io/public-ws"
     },
     {
-        "chainIconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Phala.svg",
+        "chainIconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/feature/PDW-428-work-with-json-rpc-and-socket-connetcion/Icons/Chains/Phala.svg",
         "chainGenesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
         "chainNodeUrl": "wss://phala.api.onfinality.io/public-ws"
     }
