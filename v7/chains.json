@@ -1,7 +1,7 @@
 [
     {
         "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
-        "nodeUrl": "wss://hydradx-rpc.dwellir.com/",
+        "nodeUrl": "wss://rpc.hydradx.cloud/",
         "explorers": {
             "subscan": "https://hydradx.subscan.io/account/",
             "polkascan": "https://explorer.polkascan.io/hydradx/account/",
