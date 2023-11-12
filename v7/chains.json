@@ -1,5 +1,15 @@
 [
     {
+        "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "nodeUrl": "wss://hydradx-rpc.dwellir.com/",
+        "explorers": {
+            "subscan": "https://hydradx.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/hydradx/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "hydradx.api.subscan.io"
+    },
+    {
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
         "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
         "nodeUrl": "wss://rpc.polkadot.io",
@@ -27,6 +37,7 @@
         "nodeUrl": "wss://khala.api.onfinality.io/public-ws",
         "explorers": {
             "subscan": "https://khala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/khala/account/",
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "khala.api.subscan.io"
@@ -37,6 +48,7 @@
         "nodeUrl": "wss://phala.api.onfinality.io/public-ws",
         "explorers": {
             "subscan": "https://phala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/phala/account/",
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "phala.api.subscan.io"
@@ -47,6 +59,7 @@
         "nodeUrl": "wss://acala-rpc-0.aca-api.network",
         "explorers": {
             "subscan": "https://acala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/acala/account/",
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "acala.api.subscan.io"
@@ -57,6 +70,7 @@
         "nodeUrl": "wss://karura-rpc-0.aca-api.network",
         "explorers": {
             "subscan": "https://karura.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/karura/account/",
             "subid": "https://sub.id/"
         },
         "subscanApiHost": "karura.api.subscan.io"
