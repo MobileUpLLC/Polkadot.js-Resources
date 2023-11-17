@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Polkadot",
+        "symbol": "DOT",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/DOT.svg",
+        "cmcId": 6636
+    },
+    {
+        "name": "KSM",
+        "symbol": "KSM",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KSM.svg",
+        "cmcId": 5034
+    },
+    {
+        "name": "BSX",
+        "symbol": "BSX",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BSX.svg",
+        "cmcId": 13672
+    },
+    {
+        "name": "AUSD",
+        "symbol": "KUSD",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KUSD.svg",
+        "cmcId": 20411
+    },
+    {
+        "name": "AUSD",
+        "symbol": "AUSD",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/AUSD.svg",
+        "cmcId": 20411
+    },
+    {
+        "name": "TNKR",
+        "symbol": "TNKR",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/TNKR.svg"
+    },
+    {
+        "name": "USDT",
+        "symbol": "USDT",
+        "decimals": 6,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/USDT.svg",
+        "cmcId": 825
+    },
+    {
+        "name": "XRT",
+        "symbol": "XRT",
+        "decimals": 9,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/XRT.svg",
+        "cmcId": 4757
+    },
+    {
+        "name": "Acala",
+        "symbol": "ACA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ACA.svg",
+        "cmcId":6756
+    },
+    {
+        "name": "Liquid DOT",
+        "symbol": "LDOT",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LDOT.svg",
+        "cmcId": 20725
+    },
+    {
+        "name": "Moonbeam",
+        "symbol": "GLMR",
+        "decimals": 18,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/GLMR.svg",
+        "cmcId": 6836
+    },
+    {
+        "name": "Parallel",
+        "symbol": "PARA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PARA.svg",
+        "cmcId": 12887
+    },
+    {
+        "name": "Interlay",
+        "symbol": "INTR",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/INTR.svg",
+        "cmcId": 20366
+    },
+    {
+        "name": "Astar Native Token",
+        "symbol": "ASTR",
+        "decimals": 18,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ASTR.svg",
+        "cmcId": 12885
+    },
+    {
+        "name": "interBTC",
+        "symbol": "IBTC",
+        "decimals": 8,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/IBTC.svg",
+        "cmcId": 19452
+    },
+    {
+        "name": "RMRK",
+        "symbol": "RMRK",
+        "decimals": 10,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/RMRK.svg",
+        "cmcId": 12140
+    },
+    {
+        "name": "BNC",
+        "symbol": "BNC",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BNC.svg",
+        "cmcId": 8705
+    },
+    {
+        "name": "LKSM",
+        "symbol": "LKSM",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LKSM.svg",
+        "cmcId": 20724
+    },
+    {
+        "name": "PHA",
+        "symbol": "PHA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PHA.svg",
+        "cmcId": 6841
+    },
+    {
+        "name": "CRAB",
+        "symbol": "CRAB",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/CRAB.svg",
+        "cmcId": 9243
+    },
+    {
+        "name": "KAR",
+        "symbol": "KAR",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KAR.svg",
+        "cmcId": 10042
+    },
+    {
+        "name": "Calamari",
+        "symbol": "KMA",
+        "decimals": 12,
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KMA.svg",
+        "cmcId": 15305
+    }
+]
