@@ -110,19 +110,19 @@
         "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
         "nodeUrl": "wss://polkadot-bridge-hub-rpc.polkadot.io",
         "explorers": {
-            "subscan": "",
+            "subscan": "nil",
             "subid": "https://sub.id/"
         },
-        "subscanApiHost": ""
+        "subscanApiHost": "nil"
     },
     {
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/KusamaAssetHub.svg",
         "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
         "nodeUrl": "wss://kusama-bridge-hub-rpc.polkadot.io",
         "explorers": {
-            "subscan": "",
+            "subscan": "nil",
             "subid": "https://sub.id/"
         },
-        "subscanApiHost": ""
+        "subscanApiHost": "nil"
     }
 ]
