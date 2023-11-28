@@ -1,0 +1,128 @@
+[
+    {
+        "genesisHash": "0xafdc188f45c71dacbaa0b62e16a91f726c7b8699a9748cdf715459de6b7f366d",
+        "nodeUrl": "wss://rpc.hydradx.cloud/",
+        "explorers": {
+            "subscan": "https://hydradx.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/hydradx/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "hydradx.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Polkadot.svg",
+        "genesisHash": "0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3",
+        "nodeUrl": "wss://rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://polkadot.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/polkadot/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "polkadot.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Kusama.svg",
+        "genesisHash": "0xb0a8d493285c2df73290dfb7e61f870f17b41801197a149ca93654499ea3dafe",
+        "nodeUrl": "wss://kusama-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://kusama.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/kusama/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "kusama.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Khala.svg",
+        "genesisHash": "0xd43540ba6d3eb4897c28a77d48cb5b729fea37603cbbfc7a86a73b72adb3be8d",
+        "nodeUrl": "wss://khala.api.onfinality.io/public-ws",
+        "explorers": {
+            "subscan": "https://khala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/khala/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "khala.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://raw.githubusercontent.com/MobileUpLLC/Polkadot.js-Resources/feature/PDW-428-work-with-json-rpc-and-socket-connetcion/Icons/Chains/Phala.svg",
+        "genesisHash": "0x1bb969d85965e4bb5a651abbedf21a54b6b31a21f66b5401cc3f1e286268d736",
+        "nodeUrl": "wss://phala.api.onfinality.io/public-ws",
+        "explorers": {
+            "subscan": "https://phala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/phala/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "phala.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Acala.svg",
+        "genesisHash": "0xfc41b9bd8ef8fe53d58c7ea67c794c7ec9a73daf05e6d54b14ff6342c99ba64c",
+        "nodeUrl": "wss://acala-rpc-0.aca-api.network",
+        "explorers": {
+            "subscan": "https://acala.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/acala/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "acala.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Karura.svg",
+        "genesisHash": "0xbaf5aabe40646d11f0ee8abbdc64f4a4b7674925cba08e4a05ff9ebed6e2126b",
+        "nodeUrl": "wss://karura-rpc-0.aca-api.network",
+        "explorers": {
+            "subscan": "https://karura.subscan.io/account/",
+            "polkascan": "https://explorer.polkascan.io/karura/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "karura.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Basilisk.svg",
+        "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
+        "nodeUrl": "wss://rpc.basilisk.cloud",
+        "explorers": {
+            "subscan": "https://basilisk.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "basilisk.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/PolkadotAssetHub.svg",
+        "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
+        "nodeUrl": "wss://polkadot-asset-hub-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://assethub-polkadot.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "assethub-polkadot.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/KusamaAssetHub.svg",
+        "genesisHash": "0x48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
+        "nodeUrl": "wss://kusama-asset-hub-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://assethub-kusama.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "assethub-kusama.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/KusamaAssetHub.svg",
+        "genesisHash": "0xdcf691b5a3fbe24adc99ddc959c0561b973e329b1aef4c4b22e7bb2ddecb4464",
+        "nodeUrl": "wss://polkadot-bridge-hub-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://assethub-polkadot.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "assethub-polkadot.api.subscan.io"
+    },
+    {
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/KusamaAssetHub.svg",
+        "genesisHash": "0x00dcb981df86429de8bbacf9803401f09485366c44efbf53af9ecfab03adc7e5",
+        "nodeUrl": "wss://kusama-bridge-hub-rpc.polkadot.io",
+        "explorers": {
+            "subscan": "https://assethub-kusama.subscan.io/account/",
+            "subid": "https://sub.id/"
+        },
+        "subscanApiHost": "assethub-kusama.api.subscan.io"
+    }
+]

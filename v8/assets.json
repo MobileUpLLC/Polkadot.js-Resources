@@ -1,0 +1,111 @@
+[
+    {
+        "symbol": "DOT",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/DOT.svg",
+        "cmcId": 6636
+    },
+    {
+        "symbol": "KSM",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KSM.svg",
+        "cmcId": 5034
+    },
+    {
+        "symbol": "BSX",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BSX.svg",
+        "cmcId": 13672
+    },
+    {
+        "symbol": "KUSD",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KUSD.svg",
+        "cmcId": 20411
+    },
+    {
+        "symbol": "AUSD",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/AUSD.svg",
+        "cmcId": 20411
+    },
+    {
+        "symbol": "TNKR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/TNKR.svg"
+    },
+    {
+        "symbol": "USDT",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/USDT.svg",
+        "cmcId": 825
+    },
+    {
+        "symbol": "XRT",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/XRT.svg",
+        "cmcId": 4757
+    },
+    {
+        "symbol": "ACA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ACA.svg",
+        "cmcId":6756
+    },
+    {
+        "symbol": "LDOT",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LDOT.svg",
+        "cmcId": 20725
+    },
+    {
+        "symbol": "GLMR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/GLMR.svg",
+        "cmcId": 6836
+    },
+    {
+        "symbol": "PARA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PARA.svg",
+        "cmcId": 12887
+    },
+    {
+        "symbol": "INTR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/INTR.svg",
+        "cmcId": 20366
+    },
+    {
+        "symbol": "ASTR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/ASTR.svg",
+        "cmcId": 12885
+    },
+    {
+        "symbol": "IBTC",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/IBTC.svg",
+        "cmcId": 19452
+    },
+    {
+        "symbol": "RMRK",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/RMRK.svg",
+        "cmcId": 12140
+    },
+    {
+        "symbol": "BNC",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/BNC.svg",
+        "cmcId": 8705
+    },
+    {
+        "symbol": "LKSM",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/LKSM.svg",
+        "cmcId": 20724
+    },
+    {
+        "symbol": "PHA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/PHA.svg",
+        "cmcId": 6841
+    },
+    {
+        "symbol": "CRAB",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/CRAB.svg",
+        "cmcId": 9243
+    },
+    {
+        "symbol": "KAR",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KAR.svg",
+        "cmcId": 10042
+    },
+    {
+        "symbol": "KMA",
+        "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Assets/KMA.svg",
+        "cmcId": 15305
+    }
+]
