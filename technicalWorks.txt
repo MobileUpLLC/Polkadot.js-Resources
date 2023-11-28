@@ -1,0 +1,5 @@
+{
+   "technicalText": "We are currently updating the code for new blockchain features, so the app is not yet available.
+
+Try again later!"
+ }
