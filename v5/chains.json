@@ -426,7 +426,7 @@
         "id": "statemine",
         "idAndroid": "48239ef607d7928874027a43a67689209727dfb3d3dc5e5b03a39bdc2eda771a",
         "prefix": 2,
-        "name": "Statemine",
+        "name": "Kusama Asset Hub",
         "symbol": "KSM",
         "iconUrl": "https://github.com/MobileUpLLC/Polkadot.js-Resources/raw/main/Icons/Chains/Statemine.svg",
         "relayChain": "kusama",
